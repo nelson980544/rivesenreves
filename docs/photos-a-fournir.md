@@ -12,8 +12,7 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
 | `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
 | `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
-| `decoupe-chantier.webp` | 1000 × 750 | Évacuation d'une coque découpée, site propre | /plaisanciers/decoupe-bateau/ |
-| `decoupe-hero.webp` | 1200 × 800 | Chantier de découpe : coque en cours de déconstruction | /plaisanciers/decoupe-bateau/ |
+| `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |

@@ -13,7 +13,7 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - Études de report modal vers le fluvial financées par VNF.
 - Site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance.
 - Renflouement d'un bateau à l'aide de ballons de flottaison.
-- Découpe de bateaux : déconstruction de bateaux en fin de vie, évacuation de coques et d'épaves.
+- Découpe et recyclage de bateaux en fin de vie : RivesEnRêves sort les bateaux de l'eau, la découpe est réalisée par son partenaire Paprec Environnement et les coques sont envoyées en centre de retraitement, en collaboration avec l'APER (Association pour une plaisance éco-responsable).
 - Seine et Marne : bateau de balade de RivesEnRêves, 150 passagers, naviguant sur la Seine et la Marne ; bar, cuisine, sanitaires, sonorisation, accessible PMR ; location pour mariages, séminaires et événements.
 - Concept RivesEnRêves lancé en 2010 par Joël Le Mercier (balades sur mesure et gîtes nautiques), d'abord en auto-entreprise, puis société RivesEnRêves (SASU) depuis 2021, immatriculée au RCS de Meaux le 21 janvier 2022.
 - Joël Le Mercier : gestionnaire, maître de port et commandant de bord ; permis fluvial, mer côtier et extension grande plaisance, CRR maritime et fluvial, attestation spéciale passagers ; convoyages à couple jusqu'à 100 tonnes ; ancien dirigeant et créateur d'entreprises du numérique.
@@ -24,7 +24,7 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 ## Les quatre univers
 
 - [Balades (particuliers)](https://[NOM_DE_DOMAINE]/balades-bateau/) : balades en bateau sur la Seine et la Marne à bord du Seine et Marne (150 passagers, actuellement en travaux) et du Cormoran (12 places), location du bateau pour mariages, séminaires et événements, gîte nautique (hébergement insolite sur l'eau).
-- [Plaisanciers](https://[NOM_DE_DOMAINE]/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe de bateaux.
+- [Plaisanciers](https://[NOM_DE_DOMAINE]/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe et recyclage des bateaux (avec l'APER et Paprec Environnement).
 - [Professionnels](https://[NOM_DE_DOMAINE]/professionnels/) : études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, pousseur ERNA, interventions techniques sur l'eau, site de Fublaines.
 - [Administrations](https://[NOM_DE_DOMAINE]/administrations/) : conseil en développement du tourisme fluvial aux collectivités (faisabilité, choix du bateau, haltes fluviales, exploitation).
 
@@ -34,7 +34,7 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - [Gîte nautique](https://[NOM_DE_DOMAINE]/balades-bateau/gite-nautique/)
 - [Convoyage de bateau vers les chantiers](https://[NOM_DE_DOMAINE]/plaisanciers/convoyage-bateau/)
 - [Renflouement de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/renflouement-bateau/)
-- [Découpe de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/decoupe-bateau/)
+- [Découpe et recyclage de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/decoupe-bateau/)
 - [Études de report modal financées par VNF](https://[NOM_DE_DOMAINE]/professionnels/etudes-report-modal-fluvial/)
 - [Conseil en logistique fluviale](https://[NOM_DE_DOMAINE]/professionnels/logistique-fluviale/)
 - [Pousseur ERNA](https://[NOM_DE_DOMAINE]/professionnels/pousseur-erna/)
