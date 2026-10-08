@@ -32,6 +32,7 @@ Jetons utilisables dans le contenu :
     {{article-meta}}            auteur + dates de publication / mise à jour
     {{fait:cle}}                affirmation vérifiable identique sur tout le site
     {{definition}}              phrase de définition de l'entreprise
+    {{zone}}                    territoire d'intervention (bassin de la Seine + Canal de Bourgogne)
     {{email}} {{telephone}} {{telephone_international}}
 """
 
@@ -61,6 +62,12 @@ DEFINITION = (
     "vers le fluvial financées par VNF et des services aux professionnels, et du conseil "
     "en développement du tourisme fluvial aux administrations."
 )
+
+# Territoire d'intervention : formulation unique, reprise partout (jeton {{zone}}).
+ZONE = "le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne"
+ZONE_COURTE = "Bassin de la Seine et Canal de Bourgogne"
+ZONE_LIEUX = ["Bassin de la Seine", "Seine amont", "Seine aval", "Canaux parisiens", "Marne",
+              "Canal de Bourgogne"]
 
 FAITS = {
     "haltes": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre",
@@ -440,19 +447,16 @@ def jsonld(page, cfg, ariane):
         "image": base + "assets/img/og-rivesenreves.jpg",
         "description": DEFINITION,
         "founder": {"@id": person_id},
-        "areaServed": [
-            {"@type": "AdministrativeArea", "name": "Seine-et-Marne"},
+        "areaServed": [{"@type": "Place", "name": n} for n in ZONE_LIEUX] + [
             {"@type": "AdministrativeArea", "name": "Île-de-France"},
+            {"@type": "AdministrativeArea", "name": "Seine-et-Marne"},
             {"@type": "AdministrativeArea", "name": "Bourgogne-Franche-Comté"},
-            {"@type": "Place", "name": "Vallée de la Marne"},
-            {"@type": "Place", "name": "Canal de Bourgogne"},
-            {"@type": "Country", "name": "France"},
         ],
         "knowsAbout": [
             "tourisme fluvial", "haltes fluviales", "balade en bateau", "gîte nautique",
             "convoyage de bateau", "renflouement de bateau", "découpe de bateau",
             "report modal fluvial", "transport fluvial de marchandises", "logistique fluviale",
-            "Marne", "Canal de Bourgogne", "VNF", "HAROPA",
+            "Seine", "Marne", "canaux parisiens", "Canal de Bourgogne", "VNF", "HAROPA",
         ],
     }
     if not est_marqueur(cfg.get("email_contact")):
@@ -523,7 +527,8 @@ def jsonld(page, cfg, ariane):
             "description": s["description"],
             "provider": {"@id": org_id},
             "audience": {"@type": "Audience", "audienceType": s["audience"]},
-            "areaServed": s.get("zone", "France"),
+            "areaServed": [{"@type": "Place", "name": n} for n in (
+                [s["zone"]] if s.get("zone") else ZONE_LIEUX)],
             "url": url,
         }
         graph.append(node)
@@ -564,6 +569,7 @@ def rendre_corps(page, pages, cfg):
     c = c.replace("{{faq}}", bloc_faq(page["meta"]))
     c = c.replace("{{autres-univers}}", bloc_autres_univers(page))
     c = c.replace("{{definition}}", DEFINITION)
+    c = c.replace("{{zone}}", ZONE)
     if page["meta"].get("type") == "article":
         c = c.replace("{{article-meta}}", bloc_article_meta(page))
     c = c.replace("{{root}}", page["root"])
@@ -625,6 +631,7 @@ def construire():
         for k, v in valeurs.items():
             sortie = sortie.replace("{{%s}}" % k, v)
         sortie = sortie.replace("{{root}}", page["root"])
+        sortie = sortie.replace("{{zone}}", ZONE)
         sortie = remplacer_marqueurs(sortie, cfg)
         if "{{" in sortie:
             restant = re.findall(r"\{\{[^}]*\}\}", sortie)[:3]

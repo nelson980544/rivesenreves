@@ -20,7 +20,7 @@ et les mêmes coordonnées (nom, adresse, téléphone) que sur le site.
 ## Semaine 1-2 : Google Business Profile
 
 - [ ] Créer la fiche **Google Business Profile** « RivesEnRêves » (catégorie principale à choisir parmi les catégories proposées, par ex. une catégorie liée aux excursions en bateau ou au conseil ; catégories secondaires pour les autres activités).
-- [ ] Description reprenant la phrase de définition, zone desservie (Seine-et-Marne, Île-de-France, Bourgogne), horaires, téléphone, lien vers le site.
+- [ ] Description reprenant la phrase de définition, zone desservie (bassin de la Seine : Seine amont, Seine aval, canaux parisiens, Marne ; Canal de Bourgogne), horaires, téléphone, lien vers le site.
 - [ ] Photos : ERNA, haltes, balades, gîte nautique, Joël Le Mercier.
 - [ ] Ajouter l'URL de la fiche dans `liens_officiels` de `config.json`, puis `python3 build.py`.
 - [ ] Demander des **avis** aux clients satisfaits (balades, gîte, plaisanciers) et y répondre systématiquement.
