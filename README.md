@@ -223,6 +223,20 @@ Le `.htaccess` gère aussi la **page 404 personnalisée**, la **compression** et
 2. **Bing Webmaster Tools** ([bing.com/webmasters](https://www.bing.com/webmasters)) : importez directement le site depuis Search Console, puis soumettez `sitemap.xml`. Bing alimente aussi Copilot et une partie des réponses de ChatGPT.
 3. Contrôlez les données structurées avec le [test des résultats enrichis](https://search.google.com/test/rich-results) et le [validateur Schema.org](https://validator.schema.org).
 
+## Aperçu de démonstration sur GitHub Pages
+
+Une version de démonstration est publiée sur **<https://nelson980544.github.io/rivesenreves/>**, depuis la branche `gh-pages`. Elle affiche un bandeau « Aperçu » et n'est jamais indexée par les moteurs (`noindex`, `robots.txt` bloquant) : elle ne concurrence pas le futur `rivesenreves.com`.
+
+Pour la mettre à jour après des modifications :
+
+```bash
+RER_SORTIE=/tmp/apercu RER_APERCU=1 RER_BASE=/rivesenreves/ python3 build.py
+git worktree add /tmp/ghp gh-pages
+rm -rf /tmp/ghp/* && cp -a /tmp/apercu/. /tmp/ghp/
+cd /tmp/ghp && git add -A && git commit -m "Mise à jour de l'aperçu" && git push
+cd - && git worktree remove /tmp/ghp
+```
+
 ## 5. Référencement après la mise en ligne
 
 Ce qui est déjà intégré au site :
