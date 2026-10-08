@@ -14,9 +14,10 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 
 ## 2. Informations légales (pages Mentions légales et Confidentialité)
 
-- [ ] Raison sociale, forme juridique, capital
-- [ ] Adresse du siège social
-- [ ] SIRET, RCS, n° de TVA intracommunautaire
+- [x] Raison sociale, forme juridique, capital (Kbis : RivesEnRêves, SASU, 1 500 €)
+- [x] Adresse du siège social (12 rue du Moulin, Cercle Nautique – Bateau Tx 44, 77470 Poincy)
+- [x] SIRET 909 449 548 00025, RCS Meaux 909 449 548
+- [ ] Confirmer le n° de TVA intracommunautaire FR71909449548 (calculé à partir du SIREN)
 - [x] Hébergeur VICEM : raison sociale, capital, SIREN, TVA, adresse (hébergeur français)
 - [ ] Téléphone de VICEM (obligatoire dans les mentions légales)
 - [ ] Confirmer l'adresse du siège de VICEM : son site indique 6 rue des Bateliers, 92110 Clichy, mais le registre officiel (annuaire des entreprises) indique 229 rue Saint-Honoré, 75001 Paris

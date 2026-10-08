@@ -20,9 +20,9 @@
   "_aide_telephone": "telephone : format affiché (ex. 06 12 34 56 78). telephone_international : format des liens et données structurées (ex. +33612345678).",
 
   "adresse": {
-    "rue": "",
-    "code_postal": "",
-    "ville": "",
+    "rue": "12 rue du Moulin, Cercle Nautique – Bateau Tx 44",
+    "code_postal": "77470",
+    "ville": "Poincy",
     "region": "Île-de-France",
     "pays": "FR"
   },

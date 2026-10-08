@@ -8,6 +8,7 @@
 #   FTP_PASSWORD    mot de passe FTP/SFTP
 #   FTP_PROTOCOL    "sftp" (recommandé si disponible) ou "ftp" (FTP avec TLS si le serveur le propose)
 #   FTP_REMOTE_DIR  dossier web distant, ex. /www ou /public_html
+#   FTP_PORT        (facultatif) port, si VICEM en indique un autre que 22 (SFTP) ou 21 (FTP)
 #
 # Sans ces secrets, le workflow génère le site puis s'arrête sans erreur.
 
@@ -60,9 +61,11 @@ jobs:
           LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_PROTOCOL: ${{ secrets.FTP_PROTOCOL }}
           FTP_REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
         run: |
           PROTO="${FTP_PROTOCOL:-sftp}"
           REMOTE="${FTP_REMOTE_DIR:-/}"
+          PORT="${FTP_PORT:+:$FTP_PORT}"
           # Les fichiers supprimés du site ne sont pas effacés sur le serveur (prudence) :
           # supprimez-les à la main si besoin.
           lftp -c "
@@ -70,6 +73,6 @@ jobs:
             set ftp:passive-mode on;
             set ftp:ssl-allow yes;
             set sftp:auto-confirm yes;
-            open --user \"$FTP_USER\" --env-password $PROTO://$FTP_HOST;
+            open --user \"$FTP_USER\" --env-password $PROTO://$FTP_HOST$PORT;
             mirror --reverse --verbose --parallel=4 public/ \"$REMOTE\";
           "

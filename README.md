@@ -186,6 +186,7 @@ Le fichier `.github/workflows/deploy.yml` régénère le site et l'envoie chez V
    | `FTP_PASSWORD` | mot de passe |
    | `FTP_PROTOCOL` | `sftp` si VICEM le propose, sinon `ftp` |
    | `FTP_REMOTE_DIR` | dossier web, ex. `/www` |
+   | `FTP_PORT` | facultatif : port indiqué par VICEM s'il diffère de 22 (SFTP) ou 21 (FTP) |
 2. Faites un `git push` : suivez le déploiement dans l'onglet **Actions**.
 
 Les identifiants restent dans les secrets GitHub, **jamais dans le code**. Sans secrets, le workflow s'arrête proprement sans rien envoyer. Par prudence, il n'efface pas les fichiers distants : supprimez à la main un fichier retiré du site.
