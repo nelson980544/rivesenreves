@@ -55,7 +55,8 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 
 ### Administrations
 - [ ] Nom officiel exact de la « Communauté de communes de Pouilly-Bligny » à utiliser partout
-- [ ] Étude de cas : année, périmètre exact de la mission (marqué « À VALIDER »), usage du bateau, fréquentation ou retombées
+- [x] Étude de cas : La Billebaude, trouvée aux Pays-Bas et acheminée jusqu'à Pouilly-en-Auxois, exploitée en balades fluviales
+- [ ] Étude de cas : année de la mission, fréquentation ou retombées si disponibles
 - [ ] Accord de la collectivité pour être citée, et si possible un témoignage d'élu ou de technicien
 
 ## 4. Photos

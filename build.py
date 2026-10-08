@@ -73,6 +73,7 @@ FAITS = {
     "haltes": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre",
     "haltes-rien": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine",
     "pouilly": "accompagnement de la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau pour naviguer sur le Canal de Bourgogne et développer l'activité touristique du territoire",
+    "billebaude": "La Billebaude, bateau à passagers trouvé aux Pays-Bas par RivesEnRêves et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny, qui l'exploite pour des balades fluviales sur le Canal de Bourgogne",
     "vnf-conseil": "mission de conseil en logistique fluviale pour VNF",
     "vnf-etudes": "études de report modal vers le fluvial financées par VNF",
     "haropa": "site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une convention avec HAROPA",

@@ -9,14 +9,12 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 |---|---|---|---|
 | `a-propos-hero.webp` | 1200 × 800 | Une halte de la Marne animée, vue d'ensemble | /a-propos/ |
 | `accueil-hero.webp` | 1920 × 1080 | Grande photo d'ambiance : la Marne au petit matin, bateau à quai | / |
-| `administrations-hero.webp` | 1200 × 800 | Halte fluviale aménagée et fréquentée, ou bateau sur le Canal de Bourgogne | /administrations/ |
 | `balade-carte.webp` | 800 × 500 | Le Seine et Marne naviguant entre les saules | /balades-bateau/ |
 | `balade-famille.webp` | 1000 × 750 | Le Seine et Marne naviguant, berges boisées | /balades-bateau/balade-en-bateau/ |
 | `balade-hero.webp` | 1200 × 800 | Le bateau Seine et Marne vu d'en haut, pont supérieur et nom visibles | /balades-bateau/balade-en-bateau/ |
 | `balades-hero.webp` | 1200 × 800 | Le Seine et Marne en navigation, vu de l'arrière, rivière et coteaux | /balades-bateau/ |
 | `conseil-tourisme-hero.webp` | 1200 × 800 | Visite de terrain sur une berge avec des élus / techniciens | /administrations/conseil-tourisme-fluvial/ |
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
-| `convoyage-hero.webp` | 1200 × 800 | Bateau en convoyage, passage d'écluse ou navigation | /plaisanciers/convoyage-bateau/ |
 | `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
 | `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
 | `decoupe-chantier.webp` | 1000 × 750 | Évacuation d'une coque découpée, site propre | /plaisanciers/decoupe-bateau/ |
@@ -42,13 +40,10 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `porte-balades.webp` | 800 × 600 | Porte Balades : famille ou amis à bord, ambiance détente | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `portrait-joel-le-mercier.webp` | 900 × 1100 | Portrait de Joël Le Mercier (cadrage poitrine, lumière naturelle, bord de l'eau) | /a-propos/ |
-| `pouilly-bligny-bateau.webp` | 1000 × 800 | Le bateau de la communauté de communes sur le Canal de Bourgogne | /administrations/ |
-| `pouilly-bligny-canal.webp` | 1000 × 800 | Canal de Bourgogne près de Pouilly-en-Auxois, avec le bateau | /administrations/references/ |
 | `professionnels-hero.webp` | 1200 × 800 | Transport fluvial : barge ou convoi sur la Marne / Seine | /professionnels/ |
 | `ref-decoupe.webp` | 1000 × 560 | Référence : découpe de bateau | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
 | `ref-haltes-marne.webp` | 1000 × 560 | Référence : une halte de la Marne | /references/ |
-| `ref-pouilly-bligny.webp` | 1000 × 560 | Référence : le bateau de Pouilly-Bligny sur le Canal de Bourgogne | /references/ |
 | `ref-renflouement.webp` | 1000 × 560 | Référence : renflouement aux ballons | /references/ |
 | `ref-vnf.webp` | 1000 × 560 | Référence VNF : écluse ou voie navigable (photo libre de droits) | /references/ |
 | `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
