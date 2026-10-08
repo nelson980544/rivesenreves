@@ -8,7 +8,7 @@ Le site est découpé en **quatre univers**, un par public :
 | Univers | Adresse | Public | Couleur |
 |---|---|---|---|
 | Balades | `/balades-bateau/` | Particuliers | vert (logo) |
-| Plaisanciers | `/plaisanciers/` | Propriétaires de bateaux | bleu ciel (logo) |
+| Plaisanciers | `/plaisanciers/` | Propriétaires de bateaux | bleu (logo) |
 | Professionnels | `/professionnels/` | Entreprises, ports, chantiers | bleu profond |
 | Administrations | `/administrations/` | Collectivités, établissements publics | anthracite |
 
@@ -110,9 +110,9 @@ Le texte alternatif (attribut `alt`, important pour l'accessibilité et le SEO) 
 
 ### 2.4 Logo et couleurs
 
-Les couleurs reprennent celles du logo : vert anis, bleu ciel, bleu soutenu et anthracite. Elles sont définies en tête de `src/static/assets/css/style.css` (`--logo-green`, `--logo-sky`, `--logo-blue`, `--logo-grey`), avec une teinte par univers : vert pour Balades, bleu ciel pour Plaisanciers, bleu profond pour Professionnels, anthracite pour Administrations.
+Les couleurs reprennent celles du logo : vert anis `#94b41c`, bleu `#0084c0`, bleu soutenu `#1878a8` et anthracite. Elles sont définies en tête de `src/static/assets/css/style.css` (`--logo-green`, `--logo-sky`, `--logo-blue`, `--logo-grey`), avec une teinte par univers : vert pour Balades, bleu pour Plaisanciers, bleu profond pour Professionnels, anthracite pour Administrations.
 
-Pour afficher le **logo original**, déposez-le dans `src/static/assets/img/` sous le nom `logo-officiel.svg` (ou `.png` / `.webp`), puis lancez `python3 build.py`. Il remplace automatiquement l'emblème provisoire dans l'en-tête et le pied de page. Remplacez aussi `favicon.svg` et `apple-touch-icon.png` par l'emblème seul.
+Le logo affiché est `src/static/assets/img/logo-officiel.webp` (en-tête, pied de page, données structurées). Pour le remplacer par une version haute définition, déposez `logo-officiel.svg` au même endroit (prioritaire sur le .webp), puis lancez `python3 build.py`. Remplacez aussi `favicon.svg` et `apple-touch-icon.png` par l'emblème seul.
 
 ### 2.5 Ajouter un article de blog
 

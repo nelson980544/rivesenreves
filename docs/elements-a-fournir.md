@@ -70,8 +70,10 @@ Conseils : photos horizontales (sauf portrait), lumière naturelle, personnes ay
 
 ## 5. Logo
 
-Les couleurs du site sont déjà alignées sur le logo (vert anis `#8cc63f`, bleu ciel `#29a3da`, bleu `#1d71b8`, anthracite `#3c3c3b`). En attendant le fichier original, l'en-tête affiche un emblème redessiné d'après le logo, suivi du nom « Rives en Rêves » en trois couleurs.
+Le logo transmis est intégré (`src/static/assets/img/logo-officiel.webp`) et les couleurs du site sont calées sur lui : vert `#94b41c`, bleu `#0084c0`, bleu soutenu `#1878a8`, anthracite `#1e1e1e`.
 
-- [ ] **Fichier original du logo complet** (SVG idéalement, sinon PNG fond transparent, au moins 600 px de large) : le déposer sous le nom `src/static/assets/img/logo-officiel.svg` (ou `.png` / `.webp`), puis `python3 build.py`. Il remplace automatiquement l'emblème et le nom dans l'en-tête et le pied de page.
-- [ ] **Emblème seul** (cercle maison / arbres / vagues), carré : remplacera `logo-rivesenreves.svg`, `favicon.svg` et `apple-touch-icon.png` (180 × 180 px).
-- [ ] Codes couleur exacts de la charte, s'ils existent, pour ajuster les teintes.
+Le fichier reçu est toutefois **en basse résolution** (environ 195 × 58 px utiles) : il a été agrandi, mais reste légèrement flou sur les écrans haute densité. À fournir :
+
+- [ ] **Logo complet en haute définition** : SVG idéalement (fichier du graphiste), sinon PNG à fond transparent d'au moins 1200 px de large. Le déposer sous le nom `src/static/assets/img/logo-officiel.svg` (ou remplacer `logo-officiel.webp`), puis `python3 build.py`.
+- [ ] **Emblème seul** (cercle maison / arbres / vagues), carré, en haute définition : il remplacera l'emblème redessiné utilisé pour l'icône d'onglet (`favicon.svg`) et l'icône mobile (`apple-touch-icon.png`, 180 × 180 px).
+- [ ] Codes couleur officiels de la charte, s'ils existent, pour affiner les teintes.

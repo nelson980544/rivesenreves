@@ -435,7 +435,8 @@ def jsonld(page, cfg, ariane):
         "@id": org_id,
         "name": "RivesEnRêves",
         "url": base,
-        "logo": base + "assets/img/logo-rivesenreves.svg",
+        "logo": base + ("assets/img/logo-officiel.webp" if (IMG_DIR / "logo-officiel.webp").exists()
+                        else "assets/img/logo-rivesenreves.svg"),
         "image": base + "assets/img/og-rivesenreves.jpg",
         "description": DEFINITION,
         "founder": {"@id": person_id},
@@ -577,8 +578,8 @@ def rendre_logo(page):
     sinon emblème provisoire + nom « Rives en Rêves » aux couleurs du logo."""
     for ext in ("svg", "webp", "png"):
         if (IMG_DIR / ("logo-officiel." + ext)).exists():
-            return ('<img class="brand-logo-full" src="%sassets/img/logo-officiel.%s" alt="RivesEnRêves">'
-                    % (page["root"], ext))
+            return ('<img class="brand-logo-full" src="%sassets/img/logo-officiel.%s" '
+                    'alt="RivesEnRêves" width="600" height="210">' % (page["root"], ext))
     return ('<img src="%sassets/img/logo-rivesenreves.svg" alt="" width="40" height="40">'
             '<span class="brand-name"><span class="b1">Rives</span><span class="b2">en</span>'
             '<span class="b3">Rêves</span></span>' % page["root"])
