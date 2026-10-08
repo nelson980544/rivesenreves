@@ -21,7 +21,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
 | `decoupe-chantier.webp` | 1000 × 750 | Évacuation d'une coque découpée, site propre | /plaisanciers/decoupe-bateau/ |
 | `decoupe-hero.webp` | 1200 × 800 | Chantier de découpe : coque en cours de déconstruction | /plaisanciers/decoupe-bateau/ |
-| `erna-hero.webp` | 1200 × 800 | Le pousseur ERNA en navigation (photo principale) | /professionnels/pousseur-erna/ |
 | `erna-manoeuvre.webp` | 1000 × 750 | ERNA en manœuvre, poussant une barge ou un bateau | /professionnels/pousseur-erna/ |
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
@@ -41,7 +40,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `porte-administrations.webp` | 800 × 600 | Porte Administrations : halte fluviale aménagée, berge vivante | / |
 | `porte-balades.webp` | 800 × 600 | Porte Balades : famille ou amis à bord, ambiance détente | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
-| `porte-professionnels.webp` | 800 × 600 | Porte Professionnels : le pousseur ERNA au travail | / |
 | `portrait-joel-le-mercier.webp` | 900 × 1100 | Portrait de Joël Le Mercier (cadrage poitrine, lumière naturelle, bord de l'eau) | /a-propos/ |
 | `pouilly-bligny-bateau.webp` | 1000 × 800 | Le bateau de la communauté de communes sur le Canal de Bourgogne | /administrations/ |
 | `pouilly-bligny-canal.webp` | 1000 × 800 | Canal de Bourgogne près de Pouilly-en-Auxois, avec le bateau | /administrations/references/ |
