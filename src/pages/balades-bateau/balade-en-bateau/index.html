@@ -1,16 +1,18 @@
 <!--
 {
-  "title": "Balade en bateau sur la Seine et la Marne, location pour événements – RivesEnRêves",
-  "description": "Balades en bateau sur la Seine et la Marne à bord du Seine et Marne (150 passagers) et location du bateau pour mariages, séminaires et événements.",
+  "title": "Balade en bateau sur la Seine et la Marne : Seine et Marne et Cormoran – RivesEnRêves",
+  "description": "Balades sur la Seine et la Marne à bord du Seine et Marne (150 passagers) ou du Cormoran (12 places), location pour mariages, séminaires, événements.",
   "label": "Balade en bateau",
   "univers": "balades",
   "ordre": 1,
   "services": [
     {"name": "Balade en bateau sur la Seine et la Marne", "type": "Balade en bateau", "description": "Balades en bateau sur la Seine et la Marne à bord du Seine et Marne, bateau de 150 passagers, pour particuliers, familles et groupes.", "audience": "Particuliers, familles, groupes", "zone": "Seine et Marne"},
+    {"name": "Balade en petit groupe à bord du Cormoran", "type": "Balade en bateau", "description": "Balades en bateau en petit comité à bord du Cormoran, ancien bateau-bus de 12 places, pour familles, amis et petits groupes.", "audience": "Familles, petits groupes", "zone": "Seine et Marne"},
     {"name": "Location de bateau pour événements", "type": "Privatisation de bateau", "description": "Location du bateau Seine et Marne (jusqu'à 150 personnes) pour mariages, séminaires, anniversaires, fêtes d'entreprise et autres événements, sur la Seine et la Marne.", "audience": "Particuliers, entreprises, associations, collectivités", "zone": "Seine et Marne"}
   ],
   "faq": [
     {"q": "Combien de personnes peut accueillir le bateau Seine et Marne ?", "a": "Le Seine et Marne est un bateau de 150 passagers. Il convient aussi bien aux balades ouvertes au public qu'aux événements privés de grande taille."},
+    {"q": "Peut-on faire une balade en bateau en petit groupe ?", "a": "Oui : Le Cormoran, ancien bateau-bus de 12 places, est idéal pour une balade en famille, entre amis ou en petit groupe, et peut être réservé pour vous seuls."},
     {"q": "Où navigue le bateau Seine et Marne ?", "a": "Sur la Seine et sur la Marne. Le parcours et le point d'embarquement sont précisés lors de la réservation : [À COMPLÉTER : point(s) d'embarquement]."},
     {"q": "Peut-on louer un bateau pour un mariage sur la Seine ou la Marne ?", "a": "Oui. Le Seine et Marne peut être privatisé pour un mariage, avec jusqu'à 150 invités à bord. Indiquez la date et le nombre de convives dans votre demande."},
     {"q": "Peut-on organiser un séminaire d'entreprise sur un bateau ?", "a": "Oui. Le Seine et Marne se loue pour des séminaires, des fêtes d'entreprise et des sorties d'équipe, sur la Seine et la Marne. Précisez le format souhaité (réunion, cocktail, repas, croisière) dans votre demande."},
@@ -24,8 +26,8 @@
   <div class="container page-hero-grid">
     <div>
       <span class="univers-tag">Balades · Particuliers et événements</span>
-      <h1>Balade en bateau sur la Seine et la Marne, à bord du Seine et Marne</h1>
-      <div class="answer"><p><strong>Le Seine et Marne est le bateau de RivesEnRêves : 150 passagers, pour des balades sur la Seine et la Marne.</strong> On peut aussi le louer en entier pour un mariage, un séminaire ou tout autre événement.</p></div>
+      <h1>Balade en bateau sur la Seine et la Marne, à bord du Seine et Marne ou du Cormoran</h1>
+      <div class="answer"><p><strong>RivesEnRêves propose deux bateaux pour vos balades sur la Seine et la Marne : le Seine et Marne (150 passagers) et Le Cormoran (12 places).</strong> Le premier se loue aussi en entier pour un mariage, un séminaire ou tout autre événement ; le second est idéal en petit comité.</p></div>
       <div class="btn-row">
         <a class="btn" href="{{root}}contact/?profil=particulier&amp;objet=balade">Réserver / Demander une date</a>
         <a class="btn btn-outline" href="#evenements">Louer le bateau pour un événement</a>
@@ -66,6 +68,23 @@
   </div>
 </section>
 
+<section class="section" id="cormoran" aria-labelledby="titre-cormoran">
+  <div class="container split reverse">
+    <div class="prose">
+      <p class="eyebrow">Balades en petit comité</p>
+      <h2 id="titre-cormoran">Le Cormoran, 12 places</h2>
+      <p><strong>Le Cormoran est un ancien bateau-bus de 12 places</strong>, transformé pour les balades. Sa cabine vitrée offre une vue dégagée sur la rivière, quel que soit le temps.</p>
+      <ul class="checklist">
+        <li><strong>En famille ou entre amis</strong> : une sortie à taille humaine.</li>
+        <li><strong>Pour vous seuls</strong> : réservez le bateau pour votre groupe, jusqu'à 12 personnes.</li>
+        <li><strong>Pour les occasions intimes</strong> : anniversaire, demande en mariage, sortie de famille.</li>
+      </ul>
+      <div class="btn-row"><a class="btn" href="{{root}}contact/?profil=particulier&amp;objet=balade">Réserver une balade sur le Cormoran</a></div>
+    </div>
+    <figure class="reveal">{{img name="cormoran" alt="Le Cormoran, ancien bateau-bus de 12 places de RivesEnRêves, naviguant sur une rivière bordée de coteaux boisés" hint="Le Cormoran" w="900" h="600"}}</figure>
+  </div>
+</section>
+
 <section class="section section-accent" id="evenements" aria-labelledby="titre-evenements">
   <div class="container">
     <div class="section-head">
@@ -88,12 +107,11 @@
     <div class="table-wrap">
       <table>
         <tbody>
-          <tr><th scope="row">Bateau</th><td>Seine et Marne</td></tr>
-          <tr><th scope="row">Capacité</th><td>150 passagers</td></tr>
+          <tr><th scope="row">Bateaux</th><td>Seine et Marne · Le Cormoran</td></tr>
+          <tr><th scope="row">Capacité</th><td>Seine et Marne : 150 passagers · Le Cormoran : 12 places</td></tr>
           <tr><th scope="row">Navigation</th><td>La Seine et la Marne</td></tr>
-          <tr><th scope="row">Équipements</th><td>Bar, cuisine (traiteur possible), sanitaires, sonorisation</td></tr>
-          <tr><th scope="row">Accessibilité</th><td>Accessible aux personnes à mobilité réduite</td></tr>
-          <tr><th scope="row">Disponibilité</th><td>Actuellement en travaux : réservations pour la reprise sur demande</td></tr>
+          <tr><th scope="row">Équipements du Seine et Marne</th><td>Bar, cuisine (traiteur possible), sanitaires, sonorisation ; accessible aux personnes à mobilité réduite</td></tr>
+          <tr><th scope="row">Disponibilité du Seine et Marne</th><td>Actuellement en travaux : réservations pour la reprise sur demande</td></tr>
           <tr><th scope="row">Lieu d'embarquement</th><td><em class="todo">[À COMPLÉTER]</em></td></tr>
           <tr><th scope="row">Durée des balades</th><td><em class="todo">[À COMPLÉTER]</em></td></tr>
           <tr><th scope="row">Tarifs</th><td><em class="todo">[À COMPLÉTER]</em> · Événements : sur devis</td></tr>
