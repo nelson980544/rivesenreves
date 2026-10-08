@@ -61,9 +61,9 @@ Ouvrez `config.json` avec un éditeur de texte et remplacez les valeurs entre cr
 
 | Clé | Exemple | Effet |
 |---|---|---|
-| `nom_de_domaine` | `www.rivesenreves.fr` | URL canoniques, sitemap, robots.txt, llms.txt, Open Graph, JSON-LD |
-| `email_reception_formulaire` | `contact@rivesenreves.fr` | adresse qui reçoit les messages du formulaire |
-| `email_contact` | `contact@rivesenreves.fr` | adresse affichée sur le site |
+| `nom_de_domaine` | `rivesenreves.com` | URL canoniques, sitemap, robots.txt, llms.txt, Open Graph, JSON-LD |
+| `email_reception_formulaire` | `contact@rivesenreves.com` | adresse qui reçoit les messages du formulaire |
+| `email_contact` | `contact@rivesenreves.com` | adresse affichée sur le site |
 | `telephone` / `telephone_international` | `06 12 34 56 78` / `+33612345678` | téléphone affiché / liens « appeler » |
 | `adresse` | rue, code postal, ville | données structurées (SEO local) |
 | `liens_officiels` | `["https://www.linkedin.com/company/…"]` | liens `sameAs` (LinkedIn, Google Business Profile…) |
@@ -195,8 +195,8 @@ Les identifiants restent dans les secrets GitHub, **jamais dans le code**. Sans 
 Le nom de domaine est déjà détenu chez VICEM.
 
 1. Dans l'espace client VICEM, associez le domaine (et sa variante `www`) à l'hébergement web (zone DNS : enregistrements `A`/`AAAA` ou `CNAME` vers l'hébergement, selon la procédure VICEM).
-2. Choisissez **une seule version** de l'adresse, avec ou sans `www` (ex. `www.rivesenreves.fr`).
-3. Dans `config.json`, renseignez `"nom_de_domaine": "www.rivesenreves.fr"`, puis `python3 build.py` et redéployez.
+2. Choisissez **une seule version** de l'adresse, avec ou sans `www` : ici `rivesenreves.com` (sans www), la variante `www.rivesenreves.com` étant redirigée vers elle.
+3. Dans `config.json`, renseignez `"nom_de_domaine": "rivesenreves.com"`, puis `python3 build.py` et redéployez.
 
 ### 4.5 Activer le HTTPS
 

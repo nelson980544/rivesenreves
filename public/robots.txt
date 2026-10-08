@@ -64,4 +64,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://[NOM_DE_DOMAINE]/sitemap.xml
+Sitemap: https://rivesenreves.com/sitemap.xml

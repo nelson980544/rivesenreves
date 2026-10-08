@@ -18,33 +18,33 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 
 ## Les quatre univers
 
-- [Balades (particuliers)](https://[NOM_DE_DOMAINE]/balades-bateau/) : balades en bateau sur la Marne en Seine-et-Marne et gîte nautique (hébergement insolite sur l'eau).
-- [Plaisanciers](https://[NOM_DE_DOMAINE]/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe de bateaux.
-- [Professionnels](https://[NOM_DE_DOMAINE]/professionnels/) : études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, pousseur ERNA, interventions techniques sur l'eau, site de Fublaines.
-- [Administrations](https://[NOM_DE_DOMAINE]/administrations/) : conseil en développement du tourisme fluvial aux collectivités (faisabilité, choix du bateau, haltes fluviales, exploitation).
+- [Balades (particuliers)](https://rivesenreves.com/balades-bateau/) : balades en bateau sur la Marne en Seine-et-Marne et gîte nautique (hébergement insolite sur l'eau).
+- [Plaisanciers](https://rivesenreves.com/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe de bateaux.
+- [Professionnels](https://rivesenreves.com/professionnels/) : études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, pousseur ERNA, interventions techniques sur l'eau, site de Fublaines.
+- [Administrations](https://rivesenreves.com/administrations/) : conseil en développement du tourisme fluvial aux collectivités (faisabilité, choix du bateau, haltes fluviales, exploitation).
 
 ## Pages de services
 
-- [Balade en bateau sur la Marne](https://[NOM_DE_DOMAINE]/balades-bateau/balade-en-bateau/)
-- [Gîte nautique](https://[NOM_DE_DOMAINE]/balades-bateau/gite-nautique/)
-- [Convoyage de bateau vers les chantiers](https://[NOM_DE_DOMAINE]/plaisanciers/convoyage-bateau/)
-- [Renflouement de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/renflouement-bateau/)
-- [Découpe de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/decoupe-bateau/)
-- [Études de report modal financées par VNF](https://[NOM_DE_DOMAINE]/professionnels/etudes-report-modal-fluvial/)
-- [Conseil en logistique fluviale](https://[NOM_DE_DOMAINE]/professionnels/logistique-fluviale/)
-- [Pousseur ERNA](https://[NOM_DE_DOMAINE]/professionnels/pousseur-erna/)
-- [Interventions techniques sur l'eau](https://[NOM_DE_DOMAINE]/professionnels/interventions-techniques/)
-- [Conseil en tourisme fluvial](https://[NOM_DE_DOMAINE]/administrations/conseil-tourisme-fluvial/)
-- [Références collectivités](https://[NOM_DE_DOMAINE]/administrations/references/)
+- [Balade en bateau sur la Marne](https://rivesenreves.com/balades-bateau/balade-en-bateau/)
+- [Gîte nautique](https://rivesenreves.com/balades-bateau/gite-nautique/)
+- [Convoyage de bateau vers les chantiers](https://rivesenreves.com/plaisanciers/convoyage-bateau/)
+- [Renflouement de bateau](https://rivesenreves.com/plaisanciers/renflouement-bateau/)
+- [Découpe de bateau](https://rivesenreves.com/plaisanciers/decoupe-bateau/)
+- [Études de report modal financées par VNF](https://rivesenreves.com/professionnels/etudes-report-modal-fluvial/)
+- [Conseil en logistique fluviale](https://rivesenreves.com/professionnels/logistique-fluviale/)
+- [Pousseur ERNA](https://rivesenreves.com/professionnels/pousseur-erna/)
+- [Interventions techniques sur l'eau](https://rivesenreves.com/professionnels/interventions-techniques/)
+- [Conseil en tourisme fluvial](https://rivesenreves.com/administrations/conseil-tourisme-fluvial/)
+- [Références collectivités](https://rivesenreves.com/administrations/references/)
 
 ## Entreprise
 
-- [À propos et Joël Le Mercier](https://[NOM_DE_DOMAINE]/a-propos/)
-- [Références](https://[NOM_DE_DOMAINE]/references/)
-- [Contact](https://[NOM_DE_DOMAINE]/contact/)
+- [À propos et Joël Le Mercier](https://rivesenreves.com/a-propos/)
+- [Références](https://rivesenreves.com/references/)
+- [Contact](https://rivesenreves.com/contact/)
 
 ## Guides
 
-- [Comment une collectivité peut-elle acheter un bateau pour développer le tourisme fluvial ?](https://[NOM_DE_DOMAINE]/blog/collectivite-acheter-bateau-tourisme-fluvial/)
-- [Comment organiser le convoyage d'un bateau vers un chantier et quelles démarches administratives prévoir ?](https://[NOM_DE_DOMAINE]/blog/convoyage-bateau-chantier-demarches/)
-- [Comment faire financer par VNF une étude pour basculer vos transports sur le fluvial ?](https://[NOM_DE_DOMAINE]/blog/etude-report-modal-financee-vnf/)
+- [Comment une collectivité peut-elle acheter un bateau pour développer le tourisme fluvial ?](https://rivesenreves.com/blog/collectivite-acheter-bateau-tourisme-fluvial/)
+- [Comment organiser le convoyage d'un bateau vers un chantier et quelles démarches administratives prévoir ?](https://rivesenreves.com/blog/convoyage-bateau-chantier-demarches/)
+- [Comment faire financer par VNF une étude pour basculer vos transports sur le fluvial ?](https://rivesenreves.com/blog/etude-report-modal-financee-vnf/)

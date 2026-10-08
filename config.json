@@ -1,8 +1,8 @@
 {
   "_aide": "Fichier de configuration UNIQUE du site. Modifiez les valeurs ci-dessous puis lancez : python3 build.py  (voir README.md). Une valeur laissée entre crochets [ ... ] reste affichée telle quelle sur le site : c'est un marqueur à compléter.",
 
-  "nom_de_domaine": "[NOM_DE_DOMAINE]",
-  "_aide_nom_de_domaine": "Exemple : www.rivesenreves.fr (sans https:// et sans / final). Sert aux URL canoniques, au sitemap, à robots.txt, à llms.txt, à Open Graph et aux données structurées.",
+  "nom_de_domaine": "rivesenreves.com",
+  "_aide_nom_de_domaine": "Exemple : rivesenreves.com (sans https:// et sans / final). Sert aux URL canoniques, au sitemap, à robots.txt, à llms.txt, à Open Graph et aux données structurées.",
 
   "forcer_https": false,
   "forcer_domaine_canonique": false,

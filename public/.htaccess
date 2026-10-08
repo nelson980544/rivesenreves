@@ -26,9 +26,9 @@ ErrorDocument 404 /404.html
 
   # --- Domaine unique (avec ou sans www) -----------------------------------
   # Activé par "forcer_domaine_canonique": true. Toute autre adresse
-  # (avec/sans www, adresse provisoire) est redirigée vers [NOM_DE_DOMAINE].
-  # [CANONIQUE] RewriteCond %{HTTP_HOST} !^\[NOM_DE_DOMAINE\]$ [NC]
-  # [CANONIQUE] RewriteRule ^ https://[NOM_DE_DOMAINE]%{REQUEST_URI} [L,R=301]
+  # (avec/sans www, adresse provisoire) est redirigée vers rivesenreves.com.
+  # [CANONIQUE] RewriteCond %{HTTP_HOST} !^rivesenreves\.com$ [NC]
+  # [CANONIQUE] RewriteRule ^ https://rivesenreves.com%{REQUEST_URI} [L,R=301]
 
   # --- index.html -> dossier (/page/index.html -> /page/) --------------------
   RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
