@@ -17,9 +17,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
-| `gite-carte.webp` | 800 × 500 | Intérieur chaleureux du gîte nautique ou bateau-gîte au crépuscule | /balades-bateau/ |
-| `gite-hero.webp` | 1200 × 800 | Le gîte nautique amarré, lumières allumées au crépuscule | /balades-bateau/gite-nautique/ |
-| `gite-interieur.webp` | 1000 × 750 | Intérieur du gîte : couchage, hublots, ambiance cosy | /balades-bateau/gite-nautique/ |
 | `halte-ferte-sous-jouarre.webp` | 1000 × 750 | Une halte de La Ferté-sous-Jouarre, avec plaisanciers | /administrations/ |
 | `haltes-marne.webp` | 1000 × 800 | Vue d'une des haltes de la Marne en activité | /administrations/references/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Découpe d'une épave sur berge ou sur ponton | /professionnels/interventions-techniques/ |
