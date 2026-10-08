@@ -8,7 +8,7 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 - [x] Adresse e-mail de réception des messages du formulaire → `email_reception_formulaire` (contact@rivesenreves.com)
 - [x] Adresse e-mail affichée sur le site → `email_contact` (contact@rivesenreves.com)
 - [ ] Téléphone (format affiché et format international) → `telephone`, `telephone_international`
-- [ ] Adresse postale publique (identique à Google Business Profile) → `adresse`
+- [x] Adresse publique → `adresse` : seulement « Poincy (77) » par choix (le siège est aussi un domicile) ; adresse complète uniquement dans les mentions légales. Sur Google Business Profile, choisir « zone desservie » et masquer l'adresse.
 - [ ] URL des profils officiels : LinkedIn entreprise, LinkedIn de Joël Le Mercier, Google Business Profile, Facebook, Instagram → `liens_officiels`, `linkedin_joel`
 - [ ] Accès FTP/SFTP VICEM (à saisir uniquement dans les secrets GitHub, jamais dans un fichier)
 

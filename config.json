@@ -20,13 +20,13 @@
   "_aide_telephone": "telephone : format affiché (ex. 06 12 34 56 78). telephone_international : format des liens et données structurées (ex. +33612345678).",
 
   "adresse": {
-    "rue": "12 rue du Moulin, Cercle Nautique – Bateau Tx 44",
-    "code_postal": "77470",
+    "rue": "",
+    "code_postal": "",
     "ville": "Poincy",
-    "region": "Île-de-France",
+    "region": "Seine-et-Marne",
     "pays": "FR"
   },
-  "_aide_adresse": "Adresse postale publique (identique à celle de la fiche Google Business Profile). Laissée vide, elle n'apparaît pas dans les données structurées.",
+  "_aide_adresse": "Adresse publique pour Google et les données structurées. Par choix, seule la ville est indiquée (le siège est aussi un domicile) ; l'adresse complète figure uniquement dans les mentions légales. Un champ vide n'est pas publié.",
 
   "liens_officiels": [],
   "_aide_liens_officiels": "Liste des profils officiels (sameAs) : LinkedIn de l'entreprise, LinkedIn de Joël Le Mercier, fiche Google Business Profile, Facebook, Instagram… Exemple : [\"https://www.linkedin.com/company/rivesenreves\", \"https://g.page/rivesenreves\"]",

@@ -465,14 +465,10 @@ def jsonld(page, cfg, ariane):
         org["telephone"] = cfg["telephone_international"]
     adr = cfg.get("adresse") or {}
     if adr.get("ville"):
-        org["address"] = {
-            "@type": "PostalAddress",
-            "streetAddress": adr.get("rue", ""),
-            "postalCode": adr.get("code_postal", ""),
-            "addressLocality": adr.get("ville", ""),
-            "addressRegion": adr.get("region", ""),
-            "addressCountry": adr.get("pays", "FR"),
-        }
+        champs = {"streetAddress": adr.get("rue"), "postalCode": adr.get("code_postal"),
+                  "addressLocality": adr.get("ville"), "addressRegion": adr.get("region"),
+                  "addressCountry": adr.get("pays", "FR")}
+        org["address"] = dict({"@type": "PostalAddress"}, **{k: v for k, v in champs.items() if v})
     if cfg.get("liens_officiels"):
         org["sameAs"] = cfg["liens_officiels"]
 
