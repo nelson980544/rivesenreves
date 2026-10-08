@@ -11,21 +11,21 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `conseil-tourisme-hero.webp` | 1200 × 800 | Visite de terrain sur une berge avec des élus / techniciens | /administrations/conseil-tourisme-fluvial/ |
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
 | `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
-| `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
+| `decoupe-carte.webp` | 800 × 500 | Bateau en fin de vie sorti de l'eau (grutage, slip ou remorquage vers la berge) | /plaisanciers/ |
 | `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
 | `halte-ferte-sous-jouarre.webp` | 1000 × 750 | Une halte de La Ferté-sous-Jouarre, avec plaisanciers | /administrations/ |
 | `haltes-marne.webp` | 1000 × 800 | Vue d'une des haltes de la Marne en activité | /administrations/references/ |
-| `interventions-decoupe.webp` | 1000 × 600 | Découpe d'une épave sur berge ou sur ponton | /professionnels/interventions-techniques/ |
+| `interventions-decoupe.webp` | 1000 × 600 | Épave sortie de l'eau sur berge ou sur ponton | /professionnels/interventions-techniques/ |
 | `interventions-renflouement.webp` | 1000 × 600 | Renflouement : ballons fixés à la coque | /professionnels/interventions-techniques/ |
 | `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
 | `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
 | `plaisanciers-hero.webp` | 1200 × 800 | Bateau de plaisance naviguant, convoyage vers un chantier | /plaisanciers/ |
 | `porte-administrations.webp` | 800 × 600 | Porte Administrations : halte fluviale aménagée, berge vivante | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
-| `ref-decoupe.webp` | 1000 × 560 | Référence : découpe de bateau | /references/ |
+| `ref-decoupe.webp` | 1000 × 560 | Bateau en fin de vie sorti de l'eau, ou camion Paprec emportant la coque | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
 | `ref-haltes-marne.webp` | 1000 × 560 | Référence : une halte de la Marne | /references/ |
 | `ref-renflouement.webp` | 1000 × 560 | Référence : renflouement aux ballons | /references/ |
