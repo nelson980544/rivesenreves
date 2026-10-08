@@ -8,18 +8,12 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | Fichier attendu | Format conseillé (px) | Contenu suggéré | Pages |
 |---|---|---|---|
 | `a-propos-hero.webp` | 1200 × 800 | Une halte de la Marne animée, vue d'ensemble | /a-propos/ |
-| `accueil-hero.webp` | 1920 × 1080 | Grande photo d'ambiance : la Marne au petit matin, bateau à quai | / |
-| `balade-carte.webp` | 800 × 500 | Le Seine et Marne naviguant entre les saules | /balades-bateau/ |
-| `balade-famille.webp` | 1000 × 750 | Le Seine et Marne naviguant, berges boisées | /balades-bateau/balade-en-bateau/ |
-| `balade-hero.webp` | 1200 × 800 | Le bateau Seine et Marne vu d'en haut, pont supérieur et nom visibles | /balades-bateau/balade-en-bateau/ |
-| `balades-hero.webp` | 1200 × 800 | Le Seine et Marne en navigation, vu de l'arrière, rivière et coteaux | /balades-bateau/ |
 | `conseil-tourisme-hero.webp` | 1200 × 800 | Visite de terrain sur une berge avec des élus / techniciens | /administrations/conseil-tourisme-fluvial/ |
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
 | `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
 | `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
 | `decoupe-chantier.webp` | 1000 × 750 | Évacuation d'une coque découpée, site propre | /plaisanciers/decoupe-bateau/ |
 | `decoupe-hero.webp` | 1200 × 800 | Chantier de découpe : coque en cours de déconstruction | /plaisanciers/decoupe-bateau/ |
-| `evenements-carte.webp` | 800 × 500 | Événement à bord : pont supérieur avec tables, ou réception | /balades-bateau/ |
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
@@ -35,7 +29,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
 | `plaisanciers-hero.webp` | 1200 × 800 | Bateau de plaisance naviguant, convoyage vers un chantier | /plaisanciers/ |
 | `porte-administrations.webp` | 800 × 600 | Porte Administrations : halte fluviale aménagée, berge vivante | / |
-| `porte-balades.webp` | 800 × 600 | Porte Balades : famille ou amis à bord, ambiance détente | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `portrait-joel-le-mercier.webp` | 900 × 1100 | Portrait de Joël Le Mercier (cadrage poitrine, lumière naturelle, bord de l'eau) | /a-propos/ |
 | `professionnels-hero.webp` | 1200 × 800 | Transport fluvial : barge ou convoi sur la Marne / Seine | /professionnels/ |
