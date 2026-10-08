@@ -75,8 +75,8 @@ ZONE_LIEUX = ["Bassin de la Seine", "Seine amont", "Seine aval", "Canaux parisie
               "Canal de Bourgogne"]
 
 FAITS = {
-    "haltes": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre",
-    "haltes-rien": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine",
+    "haltes": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre",
+    "haltes-rien": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine",
     "pouilly": "accompagnement de la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau pour naviguer sur le Canal de Bourgogne et développer l'activité touristique du territoire",
     "billebaude": "La Billebaude, bateau à passagers trouvé aux Pays-Bas par RivesEnRêves et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny, qui l'exploite pour des balades fluviales sur le Canal de Bourgogne",
     "vnf-conseil": "mission de conseil en logistique fluviale pour VNF",
@@ -488,7 +488,7 @@ def jsonld(page, cfg, ariane):
         "image": base + "assets/img/photos/portrait-joel-le-mercier.webp",
         "knowsAbout": ["tourisme fluvial", "haltes fluviales", "navigation fluviale",
                        "logistique fluviale", "report modal", "travaux sur bateaux"],
-        "description": "Fondateur de RivesEnRêves, créateur et exploitant de 4 haltes fluviales sur la Marne de 2019 à 2025, conseiller en logistique fluviale et en développement du tourisme fluvial.",
+        "description": "Fondateur de RivesEnRêves, créateur et exploitant de 4 haltes fluviales sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, conseiller en logistique fluviale et en développement du tourisme fluvial.",
     }
     if cfg.get("linkedin_joel"):
         personne["sameAs"] = [cfg["linkedin_joel"]]
