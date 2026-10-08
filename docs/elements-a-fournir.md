@@ -70,7 +70,7 @@ Conseils : photos horizontales (sauf portrait), lumière naturelle, personnes ay
 
 ## 5. Logo
 
-Le logo transmis est intégré (`src/static/assets/img/logo-officiel.webp`) et les couleurs du site sont calées sur lui : vert `#94b41c`, bleu `#0084c0`, bleu soutenu `#1878a8`, anthracite `#1e1e1e`.
+Le logo transmis est intégré (`src/static/assets/img/logo-officiel.webp`) et les couleurs du site sont calées sur lui : vert `#90c03c`, bleu `#0093d3`, bleu soutenu `#1878a8`, anthracite `#1e1e1e`.
 
 Le fichier reçu est toutefois **en basse résolution** (environ 195 × 58 px utiles) : il a été agrandi, mais reste légèrement flou sur les écrans haute densité. À fournir :
 

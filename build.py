@@ -579,7 +579,7 @@ def rendre_logo(page):
     for ext in ("svg", "webp", "png"):
         if (IMG_DIR / ("logo-officiel." + ext)).exists():
             return ('<img class="brand-logo-full" src="%sassets/img/logo-officiel.%s" '
-                    'alt="RivesEnRêves" width="600" height="210">' % (page["root"], ext))
+                    'alt="RivesEnRêves" width="747" height="243">' % (page["root"], ext))
     return ('<img src="%sassets/img/logo-rivesenreves.svg" alt="" width="40" height="40">'
             '<span class="brand-name"><span class="b1">Rives</span><span class="b2">en</span>'
             '<span class="b3">Rêves</span></span>' % page["root"])

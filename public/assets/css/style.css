@@ -30,15 +30,15 @@
 :root {
   /* Charte commune */
   /* Couleurs issues du logo RivesEnRêves */
-  --logo-green: #94b41c;  /* vert anis des arbres et de « Rives en » */
-  --logo-sky: #0084c0;    /* bleu des vagues et de « Rêves » */
+  --logo-green: #90c03c;  /* vert anis des arbres et de « Rives en » */
+  --logo-sky: #0093d3;    /* bleu des vagues et de « Rêves » */
   --logo-blue: #1878a8;   /* bleu soutenu des vagues */
   --logo-grey: #1e1e1e;   /* anthracite de la maison */
 
   --navy: #0b4467;        /* bleu profond (dérivé du bleu du logo) */
   --blue: #0074a9;        /* bleu du logo, assombri pour le texte */
   --blue-light: #e3f2fa;  /* reflet */
-  --green: #94b41c;       /* vert du logo (décor, jamais pour du texte sur blanc) */
+  --green: #90c03c;       /* vert du logo (décor, jamais pour du texte sur blanc) */
   --green-dark: #5c7a10;  /* vert lisible sur fond blanc */
   --sand: #f4f7e6;        /* vert très clair */
   --ink: #1f2a33;
@@ -152,7 +152,7 @@ a:hover .link-arrow::after, .link-arrow:hover::after { transform: translateX(4px
 .brand-name { font-family: var(--font-title); font-size: 1.45rem; font-weight: 600; letter-spacing: -.01em; }
 .brand-name { white-space: nowrap; }
 .brand-name .b1 { color: var(--logo-green); }
-.brand-name .b2 { color: var(--logo-green); font-size: .72em; font-style: italic; font-weight: 400; margin: 0 .18em; }
+.brand-name .b2 { color: var(--logo-grey); font-size: .72em; font-style: italic; font-weight: 400; margin: 0 .18em; }
 .brand-name .b3 { color: var(--logo-sky); }
 .brand-light { color: #fff; }
 .brand-light .brand-name .b1 { color: var(--logo-green); }
@@ -180,8 +180,8 @@ a:hover .link-arrow::after, .link-arrow:hover::after { transform: translateX(4px
   color: var(--ink); font-weight: 600; font-size: .98rem; position: relative;
 }
 .main-nav a:hover { background: var(--blue-light); }
-.main-nav li:nth-child(1) a { --dot: #94b41c; }
-.main-nav li:nth-child(2) a { --dot: #0084c0; }
+.main-nav li:nth-child(1) a { --dot: #90c03c; }
+.main-nav li:nth-child(2) a { --dot: #0093d3; }
 .main-nav li:nth-child(3) a { --dot: #17406e; }
 .main-nav li:nth-child(4) a { --dot: #3c4650; }
 .main-nav li:nth-child(-n+4) a::before {
@@ -243,7 +243,7 @@ a:hover .link-arrow::after, .link-arrow:hover::after { transform: translateX(4px
 /* 4. Héros */
 .hero {
   position: relative; color: #fff; overflow: hidden; isolation: isolate;
-  background: linear-gradient(160deg, #0b4467 0%, #005f8c 55%, #0084c0 100%);
+  background: linear-gradient(160deg, #0b4467 0%, #005f8c 55%, #0a86c0 100%);
 }
 .hero-media { position: absolute; inset: 0; z-index: -2; }
 .hero-media img { width: 100%; height: 100%; object-fit: cover; opacity: .38; }

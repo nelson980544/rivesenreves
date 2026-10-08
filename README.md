@@ -110,7 +110,7 @@ Le texte alternatif (attribut `alt`, important pour l'accessibilité et le SEO) 
 
 ### 2.4 Logo et couleurs
 
-Les couleurs reprennent celles du logo : vert anis `#94b41c`, bleu `#0084c0`, bleu soutenu `#1878a8` et anthracite. Elles sont définies en tête de `src/static/assets/css/style.css` (`--logo-green`, `--logo-sky`, `--logo-blue`, `--logo-grey`), avec une teinte par univers : vert pour Balades, bleu pour Plaisanciers, bleu profond pour Professionnels, anthracite pour Administrations.
+Les couleurs reprennent celles du logo : vert anis `#90c03c`, bleu `#0093d3`, bleu soutenu `#1878a8` et anthracite. Elles sont définies en tête de `src/static/assets/css/style.css` (`--logo-green`, `--logo-sky`, `--logo-blue`, `--logo-grey`), avec une teinte par univers : vert pour Balades, bleu pour Plaisanciers, bleu profond pour Professionnels, anthracite pour Administrations.
 
 Le logo affiché est `src/static/assets/img/logo-officiel.webp` (en-tête, pied de page, données structurées). Pour le remplacer par une version haute définition, déposez `logo-officiel.svg` au même endroit (prioritaire sur le .webp), puis lancez `python3 build.py`. Remplacez aussi `favicon.svg` et `apple-touch-icon.png` par l'emblème seul.
 
