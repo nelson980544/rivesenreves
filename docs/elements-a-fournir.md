@@ -51,7 +51,8 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 - [ ] Mission de conseil en logistique pour VNF : objet et période, si leur diffusion est autorisée
 - [ ] ERNA : photos (aucune caractéristique chiffrée ne sera publiée)
 - [ ] Délai d'intervention habituel pour les interventions techniques
-- [ ] Validation de la mention de la convention HAROPA (site de Fublaines)
+- [x] Site de Fublaines : sous-occupation de la convention de Valfrance
+- [ ] Préciser si la convention de Valfrance est passée avec HAROPA (pour pouvoir citer HAROPA), et accord de Valfrance pour être cité
 
 ### Administrations
 - [ ] Nom officiel exact de la « Communauté de communes de Pouilly-Bligny » à utiliser partout

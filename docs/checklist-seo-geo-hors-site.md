@@ -38,7 +38,7 @@ et les mêmes coordonnées (nom, adresse, téléphone) que sur le site.
 ## Mois 1-3 : citations par les partenaires (les plus importantes pour le GEO)
 
 - [ ] Demander à **VNF** une mention de RivesEnRêves (prestataire d'études de report modal, mission de conseil en logistique) sur ses pages ou publications dédiées au report modal, si possible avec un lien.
-- [ ] Demander à **HAROPA** une mention de l'occupation du site de Fublaines (actualité, liste des occupants).
+- [ ] Demander à **Valfrance** l'accord pour citer la sous-occupation du site de Fublaines, et si possible une mention.
 - [ ] Demander à la **Communauté de communes de Pouilly-Bligny** une actualité ou un témoignage sur l'achat du bateau, avec lien vers le site.
 - [ ] Demander à **Coulommiers Pays de Brie Tourisme** une mention de la collaboration sur les 4 haltes fluviales de la Marne (2019-2025), avec un lien vers le site.
 - [ ] Communes de **La Ferté-sous-Jouarre** et des autres haltes : mention dans le bulletin municipal ou sur le site de la commune.

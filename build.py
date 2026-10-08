@@ -81,7 +81,7 @@ FAITS = {
     "billebaude": "La Billebaude, bateau à passagers trouvé aux Pays-Bas par RivesEnRêves et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny, qui l'exploite pour des balades fluviales sur le Canal de Bourgogne",
     "vnf-conseil": "mission de conseil en logistique fluviale pour VNF",
     "vnf-etudes": "études de report modal vers le fluvial financées par VNF",
-    "haropa": "site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une convention avec HAROPA",
+    "fublaines": "site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance",
     "renflouement": "renflouement d'un bateau à l'aide de ballons de flottaison",
     "decoupe": "découpe de bateaux : déconstruction de bateaux en fin de vie, évacuation de coques et d'épaves",
 }
@@ -462,7 +462,7 @@ def jsonld(page, cfg, ariane):
             "tourisme fluvial", "haltes fluviales", "balade en bateau", "gîte nautique",
             "convoyage de bateau", "renflouement de bateau", "découpe de bateau",
             "report modal fluvial", "transport fluvial de marchandises", "logistique fluviale",
-            "Seine", "Marne", "canaux parisiens", "Canal de Bourgogne", "VNF", "HAROPA",
+            "Seine", "Marne", "canaux parisiens", "Canal de Bourgogne", "VNF",
         ],
     }
     if not est_marqueur(cfg.get("email_contact")):
