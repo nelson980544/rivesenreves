@@ -27,11 +27,11 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 ## 3. Textes à compléter ou à valider
 
 ### À propos et Joël Le Mercier
-- [ ] Année de création de RivesEnRêves
-- [ ] Parcours antérieur, formation, qualifications et titres de navigation de Joël Le Mercier
+- [x] Origine : concept lancé en 2010, auto-entreprise puis SASU (2021-2022)
+- [x] Parcours, formation et qualifications de Joël Le Mercier (CV du 26/08/2024)
 - [ ] Citation personnelle de Joël Le Mercier
 - [ ] Anecdotes marquantes (création d'une halte, une intervention mémorable…)
-- [ ] Noms et localisation des 2 haltes situées hors de La Ferté-sous-Jouarre
+- [x] Haltes : La Ferté-sous-Jouarre (2), Saint-Jean-les-Deux-Jumeaux, Nanteuil-sur-Marne
 - [ ] Relecture et validation de la biographie rédigée
 
 ### Balades et gîte nautique
