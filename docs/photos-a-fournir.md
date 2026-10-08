@@ -21,13 +21,11 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `haltes-marne.webp` | 1000 × 800 | Vue d'une des haltes de la Marne en activité | /administrations/references/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Découpe d'une épave sur berge ou sur ponton | /professionnels/interventions-techniques/ |
 | `interventions-renflouement.webp` | 1000 × 600 | Renflouement : ballons fixés à la coque | /professionnels/interventions-techniques/ |
-| `joel-le-mercier-berge.webp` | 1000 × 750 | Joël Le Mercier sur une berge ou à la barre, photo naturelle | / |
 | `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
 | `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
 | `plaisanciers-hero.webp` | 1200 × 800 | Bateau de plaisance naviguant, convoyage vers un chantier | /plaisanciers/ |
 | `porte-administrations.webp` | 800 × 600 | Porte Administrations : halte fluviale aménagée, berge vivante | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
-| `portrait-joel-le-mercier.webp` | 900 × 1100 | Portrait de Joël Le Mercier (cadrage poitrine, lumière naturelle, bord de l'eau) | /a-propos/ |
 | `ref-decoupe.webp` | 1000 × 560 | Référence : découpe de bateau | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
 | `ref-haltes-marne.webp` | 1000 × 560 | Référence : une halte de la Marne | /references/ |

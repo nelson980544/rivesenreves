@@ -589,3 +589,7 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 
 /* Bandeau de la version d'aperçu (GitHub Pages uniquement) */
 .apercu-bandeau { background: #fff4cc; color: #5c4400; text-align: center; font-size: .88rem; padding: .45rem var(--gutter); border-bottom: 1px solid #f0d98a; }
+
+/* Portrait du fondateur : aligné en haut et visible pendant la lecture */
+#joel-le-mercier .split { align-items: start; }
+@media (min-width: 900px) { #joel-le-mercier figure { position: sticky; top: calc(var(--header-h) + 24px); } }
