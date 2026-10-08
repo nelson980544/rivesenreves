@@ -1,7 +1,7 @@
 <!--
 {
   "title": "Contact – RivesEnRêves, entreprise fluviale (bassin de la Seine, Canal de Bourgogne)",
-  "description": "Contactez RivesEnRêves (bassin de la Seine, Canal de Bourgogne) : balade ou gîte nautique, convoyage ou renflouement de bateau, étude de report modal financée par VNF, conseil en tourisme fluvial.",
+  "description": "Contactez RivesEnRêves : balade ou événement en bateau, convoyage de bateau, étude de report modal financée par VNF, conseil en tourisme fluvial.",
   "label": "Contact",
   "schema_page": "ContactPage"
 }
@@ -38,7 +38,7 @@
         <div class="profile-choices">
           <div class="profile-choice">
             <input type="radio" id="p-particulier" name="profil" value="particulier" required>
-            <label for="p-particulier"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M3 12h2M19 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg>Particulier (balade ou gîte nautique)</label>
+            <label for="p-particulier"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M3 12h2M19 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg>Particulier (balade, événement, gîte nautique)</label>
           </div>
           <div class="profile-choice">
             <input type="radio" id="p-plaisancier" name="profil" value="plaisancier">
@@ -76,10 +76,11 @@
         <div class="form-row two">
           <div class="field">
             <label for="part-offre">Vous êtes intéressé par</label>
-            <select id="part-offre" name="Offre">
-              <option>Balade en bateau</option>
-              <option>Gîte nautique</option>
-              <option>Les deux</option>
+            <select id="part-offre" name="demande">
+              <option value="balade">Balade en bateau</option>
+              <option value="evenement">Location du bateau pour un événement (mariage, séminaire…)</option>
+              <option value="gite">Gîte nautique</option>
+              <option value="autre">Autre</option>
             </select>
           </div>
           <div class="field">

@@ -14,18 +14,19 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - Site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une convention avec HAROPA.
 - Renflouement d'un bateau à l'aide de ballons de flottaison.
 - Découpe de bateaux : déconstruction de bateaux en fin de vie, évacuation de coques et d'épaves.
+- Seine et Marne : bateau de balade de RivesEnRêves, 150 passagers, naviguant sur la Seine et la Marne ; location pour mariages, séminaires et événements.
 - ERNA : pousseur de RivesEnRêves, utilisé pour déplacer des bateaux et du matériel sur les voies d'eau.
 
 ## Les quatre univers
 
-- [Balades (particuliers)](https://[NOM_DE_DOMAINE]/balades-bateau/) : balades en bateau sur la Marne en Seine-et-Marne et gîte nautique (hébergement insolite sur l'eau).
+- [Balades (particuliers)](https://[NOM_DE_DOMAINE]/balades-bateau/) : balades en bateau sur la Seine et la Marne à bord du Seine et Marne (150 passagers, actuellement en travaux), location du bateau pour mariages, séminaires et événements, gîte nautique (hébergement insolite sur l'eau).
 - [Plaisanciers](https://[NOM_DE_DOMAINE]/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe de bateaux.
 - [Professionnels](https://[NOM_DE_DOMAINE]/professionnels/) : études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, pousseur ERNA, interventions techniques sur l'eau, site de Fublaines.
 - [Administrations](https://[NOM_DE_DOMAINE]/administrations/) : conseil en développement du tourisme fluvial aux collectivités (faisabilité, choix du bateau, haltes fluviales, exploitation).
 
 ## Pages de services
 
-- [Balade en bateau sur la Marne](https://[NOM_DE_DOMAINE]/balades-bateau/balade-en-bateau/)
+- [Balade en bateau sur la Seine et la Marne, location pour événements](https://[NOM_DE_DOMAINE]/balades-bateau/balade-en-bateau/)
 - [Gîte nautique](https://[NOM_DE_DOMAINE]/balades-bateau/gite-nautique/)
 - [Convoyage de bateau vers les chantiers](https://[NOM_DE_DOMAINE]/plaisanciers/convoyage-bateau/)
 - [Renflouement de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/renflouement-bateau/)
