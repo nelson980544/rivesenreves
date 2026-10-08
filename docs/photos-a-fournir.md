@@ -28,7 +28,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `porte-administrations.webp` | 800 × 600 | Porte Administrations : halte fluviale aménagée, berge vivante | / |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `portrait-joel-le-mercier.webp` | 900 × 1100 | Portrait de Joël Le Mercier (cadrage poitrine, lumière naturelle, bord de l'eau) | /a-propos/ |
-| `professionnels-hero.webp` | 1200 × 800 | Transport fluvial : barge ou convoi sur la Marne / Seine | /professionnels/ |
 | `ref-decoupe.webp` | 1000 × 560 | Référence : découpe de bateau | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
 | `ref-haltes-marne.webp` | 1000 × 560 | Référence : une halte de la Marne | /references/ |
