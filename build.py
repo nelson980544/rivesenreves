@@ -494,7 +494,8 @@ def jsonld(page, cfg, ariane):
         "image": base + "assets/img/photos/portrait-joel-le-mercier.webp",
         "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": n} for n in (
             "Permis fluvial", "Permis mer côtier", "Extension grande plaisance",
-            "Certificat restreint de radiotéléphoniste (CRR) maritime et fluvial", "PSC1")],
+            "Certificat restreint de radiotéléphoniste (CRR) maritime et fluvial",
+            "Attestation spéciale passagers", "PSC1")],
         "knowsAbout": ["tourisme fluvial", "haltes fluviales", "navigation fluviale", "convoyage de bateaux", "règlements de police de la navigation",
                        "logistique fluviale", "report modal", "travaux sur bateaux"],
         "description": "Fondateur de RivesEnRêves, créateur et exploitant de 4 haltes fluviales sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, conseiller en logistique fluviale et en développement du tourisme fluvial.",

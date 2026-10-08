@@ -15,8 +15,8 @@
   "_aide_web3forms": "Optionnel : si vous préférez Web3Forms à FormSubmit, collez ici la clé d'accès reçue par e-mail sur https://web3forms.com (gratuit). Laissez vide pour utiliser FormSubmit.",
 
   "email_contact": "contact@rivesenreves.com",
-  "telephone": "[TELEPHONE]",
-  "telephone_international": "[TELEPHONE_INTERNATIONAL]",
+  "telephone": "06 07 88 57 78",
+  "telephone_international": "+33607885778",
   "_aide_telephone": "telephone : format affiché (ex. 06 12 34 56 78). telephone_international : format des liens et données structurées (ex. +33612345678).",
 
   "adresse": {
