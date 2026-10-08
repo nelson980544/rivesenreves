@@ -8,13 +8,13 @@
   "forcer_domaine_canonique": false,
   "_aide_redirections": "Passez ces deux valeurs à true UNIQUEMENT quand le certificat SSL est actif sur le domaine définitif (sinon le site devient inaccessible sur l'adresse provisoire).",
 
-  "email_reception_formulaire": "[ADRESSE_EMAIL_DE_RECEPTION]",
+  "email_reception_formulaire": "contact@rivesenreves.com",
   "_aide_email_reception": "Adresse qui reçoit les messages du formulaire de contact (service gratuit FormSubmit par défaut). Voir README, section Formulaire.",
 
   "web3forms_access_key": "",
   "_aide_web3forms": "Optionnel : si vous préférez Web3Forms à FormSubmit, collez ici la clé d'accès reçue par e-mail sur https://web3forms.com (gratuit). Laissez vide pour utiliser FormSubmit.",
 
-  "email_contact": "[EMAIL_CONTACT]",
+  "email_contact": "contact@rivesenreves.com",
   "telephone": "[TELEPHONE]",
   "telephone_international": "[TELEPHONE_INTERNATIONAL]",
   "_aide_telephone": "telephone : format affiché (ex. 06 12 34 56 78). telephone_international : format des liens et données structurées (ex. +33612345678).",

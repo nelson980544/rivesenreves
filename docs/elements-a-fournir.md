@@ -4,9 +4,9 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 
 ## 1. Configuration technique (`config.json`)
 
-- [ ] Nom de domaine définitif, avec ou sans `www` → `nom_de_domaine`
-- [ ] Adresse e-mail de réception des messages du formulaire → `email_reception_formulaire`
-- [ ] Adresse e-mail affichée sur le site → `email_contact`
+- [x] Nom de domaine définitif → `nom_de_domaine` (rivesenreves.com, sans www)
+- [x] Adresse e-mail de réception des messages du formulaire → `email_reception_formulaire` (contact@rivesenreves.com)
+- [x] Adresse e-mail affichée sur le site → `email_contact` (contact@rivesenreves.com)
 - [ ] Téléphone (format affiché et format international) → `telephone`, `telephone_international`
 - [ ] Adresse postale publique (identique à Google Business Profile) → `adresse`
 - [ ] URL des profils officiels : LinkedIn entreprise, LinkedIn de Joël Le Mercier, Google Business Profile, Facebook, Instagram → `liens_officiels`, `linkedin_joel`
@@ -17,7 +17,9 @@ Tant que ces éléments ne sont pas fournis, le site affiche des marqueurs surli
 - [ ] Raison sociale, forme juridique, capital
 - [ ] Adresse du siège social
 - [ ] SIRET, RCS, n° de TVA intracommunautaire
-- [ ] Coordonnées complètes de l'hébergeur VICEM (raison sociale, adresse, téléphone)
+- [x] Hébergeur VICEM : raison sociale, capital, SIREN, TVA, adresse (hébergeur français)
+- [ ] Téléphone de VICEM (obligatoire dans les mentions légales)
+- [ ] Confirmer l'adresse du siège de VICEM : son site indique 6 rue des Bateliers, 92110 Clichy, mais le registre officiel (annuaire des entreprises) indique 229 rue Saint-Honoré, 75001 Paris
 - [ ] Service de formulaire retenu (FormSubmit ou Web3Forms)
 - [ ] Durée de conservation des demandes de contact (ex. 3 ans)
 

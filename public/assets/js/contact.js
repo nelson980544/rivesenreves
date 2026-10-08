@@ -8,12 +8,12 @@
    build.py), remplacez simplement les marqueurs entre crochets ici.
 
    - EMAIL_RECEPTION : adresse qui reçoit les messages
-     → [ADRESSE_EMAIL_DE_RECEPTION]
+     → contact@rivesenreves.com
    - WEB3FORMS_KEY   : laisser vide pour utiliser FormSubmit (gratuit, sans
      compte) ; renseigner pour utiliser Web3Forms (gratuit, avec clé).
    ========================================================================== */
 var CONTACT_CONFIG = {
-  EMAIL_RECEPTION: "[ADRESSE_EMAIL_DE_RECEPTION]",
+  EMAIL_RECEPTION: "contact@rivesenreves.com",
   WEB3FORMS_KEY: "[WEB3FORMS_ACCESS_KEY]"
 };
 
