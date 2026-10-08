@@ -1,0 +1,37 @@
+{
+  "_aide": "Fichier de configuration UNIQUE du site. Modifiez les valeurs ci-dessous puis lancez : python3 build.py  (voir README.md). Une valeur laissée entre crochets [ ... ] reste affichée telle quelle sur le site : c'est un marqueur à compléter.",
+
+  "nom_de_domaine": "[NOM_DE_DOMAINE]",
+  "_aide_nom_de_domaine": "Exemple : www.rivesenreves.fr (sans https:// et sans / final). Sert aux URL canoniques, au sitemap, à robots.txt, à llms.txt, à Open Graph et aux données structurées.",
+
+  "forcer_https": false,
+  "forcer_domaine_canonique": false,
+  "_aide_redirections": "Passez ces deux valeurs à true UNIQUEMENT quand le certificat SSL est actif sur le domaine définitif (sinon le site devient inaccessible sur l'adresse provisoire).",
+
+  "email_reception_formulaire": "[ADRESSE_EMAIL_DE_RECEPTION]",
+  "_aide_email_reception": "Adresse qui reçoit les messages du formulaire de contact (service gratuit FormSubmit par défaut). Voir README, section Formulaire.",
+
+  "web3forms_access_key": "",
+  "_aide_web3forms": "Optionnel : si vous préférez Web3Forms à FormSubmit, collez ici la clé d'accès reçue par e-mail sur https://web3forms.com (gratuit). Laissez vide pour utiliser FormSubmit.",
+
+  "email_contact": "[EMAIL_CONTACT]",
+  "telephone": "[TELEPHONE]",
+  "telephone_international": "[TELEPHONE_INTERNATIONAL]",
+  "_aide_telephone": "telephone : format affiché (ex. 06 12 34 56 78). telephone_international : format des liens et données structurées (ex. +33612345678).",
+
+  "adresse": {
+    "rue": "",
+    "code_postal": "",
+    "ville": "",
+    "region": "Île-de-France",
+    "pays": "FR"
+  },
+  "_aide_adresse": "Adresse postale publique (identique à celle de la fiche Google Business Profile). Laissée vide, elle n'apparaît pas dans les données structurées.",
+
+  "liens_officiels": [],
+  "_aide_liens_officiels": "Liste des profils officiels (sameAs) : LinkedIn de l'entreprise, LinkedIn de Joël Le Mercier, fiche Google Business Profile, Facebook, Instagram… Exemple : [\"https://www.linkedin.com/company/rivesenreves\", \"https://g.page/rivesenreves\"]",
+
+  "linkedin_joel": "",
+
+  "date_mise_a_jour_site": "2026-10-08"
+}

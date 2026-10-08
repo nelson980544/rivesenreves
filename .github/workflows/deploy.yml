@@ -1,0 +1,75 @@
+# Déploiement automatique du site chez VICEM à chaque mise à jour de la branche main.
+# Les identifiants ne sont JAMAIS écrits ici : ils sont lus dans les « secrets »
+# du dépôt GitHub (Settings > Secrets and variables > Actions). Voir README.md.
+#
+# Secrets attendus :
+#   FTP_HOST        ex. ftp.mondomaine.fr   (fourni par VICEM)
+#   FTP_USER        identifiant FTP/SFTP
+#   FTP_PASSWORD    mot de passe FTP/SFTP
+#   FTP_PROTOCOL    "sftp" (recommandé si disponible) ou "ftp" (FTP avec TLS si le serveur le propose)
+#   FTP_REMOTE_DIR  dossier web distant, ex. /www ou /public_html
+#
+# Sans ces secrets, le workflow génère le site puis s'arrête sans erreur.
+
+name: Déploiement VICEM
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploiement-vicem
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Générer le site (public/)
+        run: python3 build.py
+
+      - name: Vérifier la présence des secrets
+        id: check
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+        run: |
+          if [ -z "$FTP_HOST" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Secrets FTP non configurés : site généré mais non déployé."
+          fi
+
+      - name: Installer lftp
+        if: steps.check.outputs.skip != 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Envoyer public/ sur l'hébergement VICEM
+        if: steps.check.outputs.skip != 'true'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          # lu par lftp grâce à l'option --env-password (jamais affiché dans les journaux)
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PROTOCOL: ${{ secrets.FTP_PROTOCOL }}
+          FTP_REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
+        run: |
+          PROTO="${FTP_PROTOCOL:-sftp}"
+          REMOTE="${FTP_REMOTE_DIR:-/}"
+          # Les fichiers supprimés du site ne sont pas effacés sur le serveur (prudence) :
+          # supprimez-les à la main si besoin.
+          lftp -c "
+            set net:max-retries 3;
+            set ftp:passive-mode on;
+            set ftp:ssl-allow yes;
+            set sftp:auto-confirm yes;
+            open --user \"$FTP_USER\" --env-password $PROTO://$FTP_HOST;
+            mirror --reverse --verbose --parallel=4 public/ \"$REMOTE\";
+          "

@@ -1,0 +1,50 @@
+# RivesEnRêves
+
+> RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
+
+Zone d'intervention : Marne, Seine-et-Marne, Île-de-France, Canal de Bourgogne (Bourgogne) ; conseil dans toute la France.
+Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une convention avec HAROPA.
+
+## Faits vérifiables
+
+- 4 haltes fluviales exploitées sur la Marne de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine.
+- Accompagnement de la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau pour naviguer sur le Canal de Bourgogne et développer l'activité touristique du territoire.
+- Mission de conseil en logistique fluviale pour VNF.
+- Études de report modal vers le fluvial financées par VNF.
+- Site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une convention avec HAROPA.
+- Renflouement d'un bateau à l'aide de ballons de flottaison.
+- Découpe de bateaux : déconstruction de bateaux en fin de vie, évacuation de coques et d'épaves.
+- ERNA : pousseur de RivesEnRêves, utilisé pour déplacer des bateaux et du matériel sur les voies d'eau.
+
+## Les quatre univers
+
+- [Balades (particuliers)](https://[NOM_DE_DOMAINE]/balades-bateau/) : balades en bateau sur la Marne en Seine-et-Marne et gîte nautique (hébergement insolite sur l'eau).
+- [Plaisanciers](https://[NOM_DE_DOMAINE]/plaisanciers/) : convoyage de bateaux vers les chantiers avec toute la partie administrative, renflouement, découpe de bateaux.
+- [Professionnels](https://[NOM_DE_DOMAINE]/professionnels/) : études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, pousseur ERNA, interventions techniques sur l'eau, site de Fublaines.
+- [Administrations](https://[NOM_DE_DOMAINE]/administrations/) : conseil en développement du tourisme fluvial aux collectivités (faisabilité, choix du bateau, haltes fluviales, exploitation).
+
+## Pages de services
+
+- [Balade en bateau sur la Marne](https://[NOM_DE_DOMAINE]/balades-bateau/balade-en-bateau/)
+- [Gîte nautique](https://[NOM_DE_DOMAINE]/balades-bateau/gite-nautique/)
+- [Convoyage de bateau vers les chantiers](https://[NOM_DE_DOMAINE]/plaisanciers/convoyage-bateau/)
+- [Renflouement de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/renflouement-bateau/)
+- [Découpe de bateau](https://[NOM_DE_DOMAINE]/plaisanciers/decoupe-bateau/)
+- [Études de report modal financées par VNF](https://[NOM_DE_DOMAINE]/professionnels/etudes-report-modal-fluvial/)
+- [Conseil en logistique fluviale](https://[NOM_DE_DOMAINE]/professionnels/logistique-fluviale/)
+- [Pousseur ERNA](https://[NOM_DE_DOMAINE]/professionnels/pousseur-erna/)
+- [Interventions techniques sur l'eau](https://[NOM_DE_DOMAINE]/professionnels/interventions-techniques/)
+- [Conseil en tourisme fluvial](https://[NOM_DE_DOMAINE]/administrations/conseil-tourisme-fluvial/)
+- [Références collectivités](https://[NOM_DE_DOMAINE]/administrations/references/)
+
+## Entreprise
+
+- [À propos et Joël Le Mercier](https://[NOM_DE_DOMAINE]/a-propos/)
+- [Références](https://[NOM_DE_DOMAINE]/references/)
+- [Contact](https://[NOM_DE_DOMAINE]/contact/)
+
+## Guides
+
+- [Comment une collectivité peut-elle acheter un bateau pour développer le tourisme fluvial ?](https://[NOM_DE_DOMAINE]/blog/collectivite-acheter-bateau-tourisme-fluvial/)
+- [Comment organiser le convoyage d'un bateau vers un chantier et quelles démarches administratives prévoir ?](https://[NOM_DE_DOMAINE]/blog/convoyage-bateau-chantier-demarches/)
+- [Comment faire financer par VNF une étude pour basculer vos transports sur le fluvial ?](https://[NOM_DE_DOMAINE]/blog/etude-report-modal-financee-vnf/)

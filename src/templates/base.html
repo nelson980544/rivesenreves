@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<script>document.documentElement.classList.add("js")</script>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="author" content="RivesEnRêves – Joël Le Mercier">
+<meta name="theme-color" content="#0e3f66">
+
+<!-- Open Graph / réseaux sociaux -->
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="RivesEnRêves">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{og_image}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{og_image}}">
+
+<link rel="icon" href="{{root}}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{root}}assets/img/apple-touch-icon.png">
+<link rel="preload" href="{{root}}assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{root}}assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}assets/css/style.css">
+
+<!-- Données structurées (schema.org) -->
+<script type="application/ld+json">
+{{jsonld}}
+</script>
+</head>
+<body class="{{body_class}}">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{root}}" aria-label="RivesEnRêves – accueil">{{logo}}</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle-bars" aria-hidden="true"></span><span class="menu-toggle-label">Menu</span>
+    </button>
+    <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>{{menu}}</ul>
+    </nav>
+  </div>
+  <nav class="univers-bar" aria-label="Accès rapide aux quatre univers">
+    {{barre_univers}}
+  </nav>
+</header>
+
+{{sous_nav}}
+{{ariane}}
+
+<main id="contenu">
+{{contenu}}
+</main>
+
+<footer class="site-footer">
+  <svg class="footer-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 0 480 60 720 30 S 1200 0 1440 30 V60 H0Z"/></svg>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a class="brand brand-light" href="{{root}}" aria-label="RivesEnRêves – accueil">{{logo}}</a>
+      <p>Entreprise fluviale fondée par Joël Le Mercier. Exploiter, conseiller et faire naviguer : sur la Marne, en Seine-et-Marne, sur le Canal de Bourgogne et partout où la voie d'eau a de l'avenir.</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Nos univers</h2>
+      <ul>
+        <li><a href="{{root}}balades-bateau/">Balades et gîte nautique</a></li>
+        <li><a href="{{root}}plaisanciers/">Services aux plaisanciers</a></li>
+        <li><a href="{{root}}professionnels/">Services aux professionnels</a></li>
+        <li><a href="{{root}}administrations/">Conseil aux administrations</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">RivesEnRêves</h2>
+      <ul>
+        <li><a href="{{root}}a-propos/">À propos</a></li>
+        <li><a href="{{root}}a-propos/#joel-le-mercier">Joël Le Mercier</a></li>
+        <li><a href="{{root}}references/">Références</a></li>
+        <li><a href="{{root}}blog/">Blog et ressources</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Contact</h2>
+      <ul class="footer-contact">
+        <li><a href="mailto:[EMAIL_CONTACT]">[EMAIL_CONTACT]</a></li>
+        <li><a href="tel:[TELEPHONE_INTERNATIONAL]">[TELEPHONE]</a></li>
+        <li>Marne, Seine-et-Marne, Canal de Bourgogne et au-delà</li>
+        <li><a class="btn btn-small btn-light" href="{{root}}contact/">Nous écrire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {{annee}} RivesEnRêves · <a href="{{root}}mentions-legales/">Mentions légales</a> · <a href="{{root}}confidentialite/">Confidentialité</a> · <a href="{{root}}sitemap.xml">Plan du site</a></p>
+  </div>
+</footer>
+
+<script src="{{root}}assets/js/main.js" defer></script>
+</body>
+</html>

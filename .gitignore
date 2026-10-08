@@ -1,0 +1,12 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+__pycache__/
+*.pyc
+
+# Secrets locaux éventuels (ne jamais versionner d'identifiants)
+.env
+*.local.json
+
+# Le dossier public/ EST versionné : il contient le site prêt à déposer chez VICEM.

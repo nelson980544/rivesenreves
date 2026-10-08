@@ -1,0 +1,38 @@
+<!--
+{
+  "title": "Blog et ressources sur le fluvial : tourisme, plaisance, report modal – RivesEnRêves",
+  "description": "Guides RivesEnRêves : acheter un bateau pour une collectivité, convoyer un bateau vers un chantier, faire financer par VNF une étude de report modal.",
+  "label": "Blog",
+  "schema_page": "CollectionPage"
+}
+-->
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Blog et ressources</p>
+    <h1>Conseils et guides pour vivre et utiliser la voie d'eau</h1>
+    <div class="answer"><p><strong>Des réponses concrètes aux questions de chaque public</strong>, rédigées par Joël Le Mercier à partir de l'expérience de terrain de RivesEnRêves : haltes de la Marne, convoyages, conseil à VNF et aux collectivités.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filters" data-filter-group data-filter-target="#articles" role="group" aria-label="Filtrer les articles par univers" hidden>
+      <button type="button" data-filter="tous" aria-pressed="true">Tous les articles</button>
+      <button type="button" class="u-balades" data-filter="balades" aria-pressed="false">Balades</button>
+      <button type="button" class="u-plaisanciers" data-filter="plaisanciers" aria-pressed="false">Plaisanciers</button>
+      <button type="button" class="u-professionnels" data-filter="professionnels" aria-pressed="false">Professionnels</button>
+      <button type="button" class="u-administrations" data-filter="administrations" aria-pressed="false">Administrations</button>
+    </div>
+    <div id="articles">
+      {{articles}}
+    </div>
+    <div class="section-tight">
+      <h2>Prochainement</h2>
+      <ul>
+        <li><strong>Administrations</strong> : Comment créer une halte fluviale ?</li>
+        <li><strong>Professionnels</strong> : Comment renflouer un bateau coulé sur un site portuaire ?</li>
+        <li><strong>Balades</strong> : Que faire sur la Marne en famille ?</li>
+      </ul>
+    </div>
+  </div>
+</section>

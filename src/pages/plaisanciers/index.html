@@ -1,0 +1,103 @@
+<!--
+{
+  "title": "Services aux plaisanciers : convoyage de bateau, renflouement, découpe – RivesEnRêves",
+  "description": "Convoyage de bateau vers le chantier avec toutes les démarches administratives, renflouement et découpe de bateaux. Marne, Seine-et-Marne et au-delà.",
+  "label": "Plaisanciers",
+  "univers": "plaisanciers",
+  "services": [
+    {"name": "Convoyage de bateau vers les chantiers", "type": "Convoyage de bateau", "description": "Organisation du convoyage d'un bateau jusqu'au chantier de réparation ou d'entretien, avec prise en charge de toute la partie administrative.", "audience": "Propriétaires et utilisateurs de bateaux", "zone": "France"},
+    {"name": "Renflouement de bateau", "type": "Renflouement de bateau", "description": "Renflouement de bateaux coulés ou semi-immergés, notamment à l'aide de ballons de flottaison.", "audience": "Propriétaires et utilisateurs de bateaux", "zone": "France"},
+    {"name": "Découpe de bateau", "type": "Découpe et déconstruction de bateau", "description": "Découpe de bateaux en fin de vie, évacuation de coques et d'épaves.", "audience": "Propriétaires et utilisateurs de bateaux", "zone": "France"}
+  ],
+  "faq": [
+    {"q": "Qui peut convoyer mon bateau jusqu'au chantier ?", "a": "RivesEnRêves organise le convoyage de votre bateau jusqu'au chantier de réparation ou d'entretien, et prend en charge toute la partie administrative : vous n'avez qu'à nous confier le bateau et ses papiers."},
+    {"q": "Mon bateau a coulé au port, que faire ?", "a": "Sécurisez la zone, prévenez le gestionnaire du port et votre assureur, puis contactez-nous : RivesEnRêves a déjà renfloué un bateau à l'aide de ballons de flottaison et peut étudier votre situation."},
+    {"q": "Comment se débarrasser d'un vieux bateau ?", "a": "Un bateau en fin de vie doit être déconstruit et évacué proprement. RivesEnRêves réalise des opérations de découpe de bateaux et d'évacuation de coques. Demandez un devis en décrivant le bateau et son emplacement."},
+    {"q": "Intervenez-vous en dehors de la Marne ?", "a": "Oui. Notre base est en Seine-et-Marne, en bord de Marne, mais nous intervenons sur d'autres rivières et canaux selon les besoins : précisez le lieu dans votre demande."}
+  ]
+}
+-->
+<section class="page-hero">
+  <div class="container page-hero-grid">
+    <div>
+      <span class="univers-tag">Univers Plaisanciers</span>
+      <h1>Services aux plaisanciers : convoyage, renflouement, découpe de bateaux</h1>
+      <div class="answer"><p><strong>Vous avez un bateau ? RivesEnRêves le convoie jusqu'au chantier en s'occupant de toute la partie administrative</strong>, le renfloue s'il a coulé et le découpe s'il est en fin de vie. Un seul interlocuteur, qui connaît la rivière.</p></div>
+      <div class="btn-row">
+        <a class="btn" href="{{root}}contact/?profil=plaisancier">Demander un devis</a>
+        <a class="btn btn-outline" href="#services">Nos services</a>
+      </div>
+    </div>
+    <figure>{{img name="plaisanciers-hero" alt="Bateau de plaisance en convoyage sur la Marne" hint="Bateau de plaisance naviguant, convoyage vers un chantier" w="1200" h="800" eager}}</figure>
+  </div>
+</section>
+
+<section class="section" id="services" aria-labelledby="titre-services">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="titre-services">Ce que nous faisons pour votre bateau</h2>
+    </div>
+    <div class="grid grid-3">
+      <a class="card reveal" href="{{root}}plaisanciers/convoyage-bateau/">
+        <div class="card-media">{{img name="convoyage-carte" alt="Bateau convoyé vers un chantier naval fluvial" hint="Convoyage : bateau arrivant au chantier" w="800" h="500"}}</div>
+        <span class="badge badge-accent" style="align-self:flex-start;margin-bottom:.6rem">Démarches incluses</span>
+        <h3>Convoyage vers les chantiers</h3>
+        <p>Nous amenons votre bateau au chantier de réparation ou d'entretien et gérons toutes les démarches administratives.</p>
+        <span class="link-arrow">Le convoyage</span>
+      </a>
+      <a class="card reveal" href="{{root}}plaisanciers/renflouement-bateau/">
+        <div class="card-media">{{img name="renflouement-carte" alt="Ballons de flottaison utilisés pour renflouer un bateau" hint="Renflouement : ballons de flottaison autour d'un bateau" w="800" h="500"}}</div>
+        <h3>Renflouement</h3>
+        <p>Bateau coulé ou semi-immergé : nous l'avons déjà fait, à l'aide de ballons de flottaison.</p>
+        <span class="link-arrow">Le renflouement</span>
+      </a>
+      <a class="card reveal" href="{{root}}plaisanciers/decoupe-bateau/">
+        <div class="card-media">{{img name="decoupe-carte" alt="Découpe d'une coque de bateau en fin de vie" hint="Découpe : coque en cours de déconstruction" w="800" h="500"}}</div>
+        <h3>Découpe de bateaux</h3>
+        <p>Déconstruction d'un bateau en fin de vie, évacuation de coques ou d'épaves.</p>
+        <span class="link-arrow">La découpe</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-accent" aria-labelledby="pourquoi">
+  <div class="container split">
+    <div>
+      <h2 id="pourquoi">Pourquoi nous confier votre bateau ?</h2>
+      <p>Parce que nous avons été, nous aussi, du côté du quai. Notre expérience : <strong>{{fait:haltes}}</strong>. Nous avons accueilli des plaisanciers, entendu leurs galères et appris à les résoudre.</p>
+      <ul class="checklist">
+        <li>Une connaissance fine de la Marne, de ses écluses et de ses gestionnaires.</li>
+        <li>Les papiers, les autorisations et le planning : on s'en occupe.</li>
+        <li>Des interventions déjà réalisées : renflouement aux ballons, découpe de bateaux.</li>
+      </ul>
+    </div>
+    <div class="proofs">
+      <div class="proof"><strong>Renflouement réussi</strong><p>Un bateau coulé, remis à flot à l'aide de ballons de flottaison.</p></div>
+      <div class="proof"><strong>Découpes réalisées</strong><p>Bateaux en fin de vie déconstruits, coques et épaves évacuées.</p></div>
+      <div class="proof"><strong>4 haltes exploitées</strong><p>Sur la Marne, de 2019 à 2025, dont 2 à La Ferté-sous-Jouarre.</p></div>
+      <p><a class="link-arrow" href="{{root}}references/?univers=plaisanciers">Voir les références</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><h2>Conseils pour les plaisanciers</h2></div>
+    {{articles univers="plaisanciers"}}
+  </div>
+</section>
+
+{{faq}}
+
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Un bateau à déplacer, à sauver ou à déconstruire ?</h2>
+      <p>Décrivez le bateau, son emplacement et votre besoin : nous revenons vers vous avec un devis.</p>
+      <div class="btn-row"><a class="btn" href="{{root}}contact/?profil=plaisancier">Demander un devis</a></div>
+    </div>
+  </div>
+</section>
+
+{{autres-univers}}
