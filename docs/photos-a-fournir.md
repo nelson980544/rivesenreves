@@ -19,7 +19,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `decoupe-carte.webp` | 800 × 500 | Découpe : coque en cours de déconstruction | /plaisanciers/ |
 | `decoupe-chantier.webp` | 1000 × 750 | Évacuation d'une coque découpée, site propre | /plaisanciers/decoupe-bateau/ |
 | `decoupe-hero.webp` | 1200 × 800 | Chantier de découpe : coque en cours de déconstruction | /plaisanciers/decoupe-bateau/ |
-| `erna-manoeuvre.webp` | 1000 × 750 | ERNA en manœuvre, poussant une barge ou un bateau | /professionnels/pousseur-erna/ |
 | `evenements-carte.webp` | 800 × 500 | Événement à bord : pont supérieur avec tables, ou réception | /balades-bateau/ |
 | `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
@@ -30,7 +29,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `halte-ferte-sous-jouarre.webp` | 1000 × 750 | Une halte de La Ferté-sous-Jouarre, avec plaisanciers | /administrations/ |
 | `haltes-marne.webp` | 1000 × 800 | Vue d'une des haltes de la Marne en activité | /administrations/references/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Découpe d'une épave sur berge ou sur ponton | /professionnels/interventions-techniques/ |
-| `interventions-hero.webp` | 1200 × 800 | Intervention sur un port : épave, ballons de flottaison, ERNA | /professionnels/interventions-techniques/ |
 | `interventions-renflouement.webp` | 1000 × 600 | Renflouement : ballons fixés à la coque | /professionnels/interventions-techniques/ |
 | `joel-le-mercier-berge.webp` | 1000 × 750 | Joël Le Mercier sur une berge ou à la barre, photo naturelle | / |
 | `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
