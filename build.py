@@ -49,7 +49,12 @@ SRC = ROOT / "src"
 PAGES = SRC / "pages"
 STATIC = SRC / "static"
 TEMPLATES = SRC / "templates"
-OUT = ROOT / "public"
+# Dossier de sortie (public/ par défaut). Variables d'environnement pour la version
+# d'aperçu publiée sur GitHub Pages (voir README, « Aperçu sur GitHub Pages ») :
+#   RER_SORTIE=dossier   RER_APERCU=1 (bandeau + non indexé)   RER_BASE=/rivesenreves/
+OUT = Path(os.environ.get("RER_SORTIE") or (ROOT / "public"))
+APERCU = os.environ.get("RER_APERCU") == "1"
+BASE_404 = os.environ.get("RER_BASE", "/")
 PHOTOS_DIR = STATIC / "assets" / "img" / "photos"
 
 # ---------------------------------------------------------------------------
@@ -195,7 +200,7 @@ def lire_pages():
             "fichier": rel,
             "url": url,
             # La page 404 est servie à n'importe quelle adresse : chemins absolus.
-            "root": "/" if url == "404.html" else ("../" * profondeur if profondeur else "./"),
+            "root": BASE_404 if url == "404.html" else ("../" * profondeur if profondeur else "./"),
             "meta": meta,
             "corps": corps,
         })
@@ -606,6 +611,8 @@ def construire():
         univers = meta.get("univers") or "none"
         robots = "noindex, follow" if meta.get("noindex") else \
             "index, follow, max-image-preview:large, max-snippet:-1"
+        if APERCU:
+            robots = "noindex, nofollow"
         valeurs = {
             "title": html.escape(meta["title"]),
             "description": html.escape(meta["description"], quote=True),
@@ -623,6 +630,9 @@ def construire():
             "root": page["root"],
             "annee": cfg.get("date_mise_a_jour_site", "2026")[:4],
             "logo": rendre_logo(page),
+            "bandeau": ('<div class="apercu-bandeau" role="note">Aperçu de démonstration du futur site '
+                        '<strong>rivesenreves.com</strong> · contenus et photos en cours de finalisation</div>'
+                        if APERCU else ""),
         }
         sortie = gabarit
         for k, v in valeurs.items():
@@ -652,6 +662,12 @@ def construire():
             dest.write_text(t, encoding="utf-8")
         else:
             shutil.copy2(f, dest)
+
+    if APERCU:
+        # Version de démonstration : jamais indexée par les moteurs
+        (OUT / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
+        (OUT / ".nojekyll").write_text("", encoding="utf-8")
+        (OUT / ".htaccess").unlink(missing_ok=True)
 
     # Images provisoires
     ph = OUT / "assets" / "img" / "a-remplacer"
