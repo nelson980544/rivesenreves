@@ -235,15 +235,10 @@ Le site est publié par **GitHub Pages** depuis la branche `gh-pages`, sur le do
 
 Dans GitHub, **Settings > Pages** : domaine `rivesenreves.com`, case **Enforce HTTPS** cochée.
 
-Pour publier une mise à jour :
+Pour publier une mise à jour, une seule commande :
 
 ```bash
-python3 build.py
-RER_SORTIE=/tmp/site python3 build.py
-rm -f /tmp/site/.htaccess && echo "rivesenreves.com" > /tmp/site/CNAME && touch /tmp/site/.nojekyll
-git worktree add /tmp/ghp gh-pages
-cd /tmp/ghp && git rm -rq . && cp -a /tmp/site/. . && git add -A && git commit -m "Mise à jour du site" && git push
-cd - && git worktree remove /tmp/ghp
+./publier.sh "Description de la mise à jour"
 ```
 
 Le fichier `.htaccess` et le workflow `deploy.yml` (envoi FTP vers VICEM) restent disponibles pour revenir un jour sur l'hébergement VICEM.
