@@ -42,6 +42,13 @@
     items.forEach(function (el) { el.classList.add("is-visible"); });
   }
 
+  /* Vidéos : pas de lecture automatique si l'utilisateur réduit les animations */
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll("video[autoplay]").forEach(function (v) {
+      v.removeAttribute("autoplay"); v.pause(); v.setAttribute("controls", "");
+    });
+  }
+
   /* Filtres par univers (pages Références et Blog) ----------------------- */
   document.querySelectorAll("[data-filter-group]").forEach(function (group) {
     var target = document.querySelector(group.getAttribute("data-filter-target"));
