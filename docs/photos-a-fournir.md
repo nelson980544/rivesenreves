@@ -9,7 +9,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 |---|---|---|---|
 | `conseil-tourisme-hero.webp` | 1200 × 800 | Visite de terrain sur une berge avec des élus / techniciens | /administrations/conseil-tourisme-fluvial/ |
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
-| `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
 | `decoupe-carte.webp` | 800 × 500 | Bateau en fin de vie sorti de l'eau (grutage, slip ou remorquage vers la berge) | /plaisanciers/ |
 | `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
