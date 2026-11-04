@@ -9,6 +9,8 @@ AddDefaultCharset UTF-8
 AddType image/avif .avif
 AddType image/webp .webp
 AddType font/woff2 .woff2
+AddType video/mp4 .mp4
+AddType video/webm .webm
 AddType text/plain .txt
 
 # Page 404 personnalisée
@@ -53,6 +55,8 @@ ErrorDocument 404 /404.html
   ExpiresByType image/jpeg "access plus 6 months"
   ExpiresByType image/png "access plus 6 months"
   ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 6 months"
+  ExpiresByType video/webm "access plus 6 months"
   ExpiresByType text/plain "access plus 1 day"
   ExpiresByType application/xml "access plus 1 day"
 </IfModule>

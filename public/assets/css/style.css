@@ -593,3 +593,9 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 /* Portrait du fondateur : aligné en haut et visible pendant la lecture */
 #joel-le-mercier .split { align-items: start; }
 @media (min-width: 900px) { #joel-le-mercier figure { position: sticky; top: calc(var(--header-h) + 24px); } }
+
+/* Vidéo verticale (format téléphone) */
+.video-split { display: grid; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+@media (min-width: 900px) { .video-split { grid-template-columns: 1fr 360px; } }
+.video-frame { margin: 0 auto; width: 100%; max-width: 360px; }
+.video-frame video { display: block; width: 100%; height: auto; aspect-ratio: 480 / 864; border-radius: var(--radius-lg); box-shadow: var(--shadow-hover); background: var(--navy); object-fit: cover; }
