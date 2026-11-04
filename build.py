@@ -536,6 +536,9 @@ def jsonld(page, cfg, ariane):
                        "logistique fluviale", "report modal", "travaux sur bateaux"],
         "description": "Fondateur de RivesEnRêves, créateur et exploitant de 4 haltes fluviales sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, conseiller en logistique fluviale et en développement du tourisme fluvial.",
     }
+    personne["subjectOf"] = {"@type": "NewsArticle", "url": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-marin-d-eau-douce-ne-joel-le-mercier-revele-les-secrets-des-cours-d-eau-28-09-2020-8393304.php", "datePublished": "2020-09-28",
+                             "headline": "Seine-et-Marne : marin d'eau douce né, Joël Le Mercier révèle les secrets des cours d'eau",
+                             "publisher": {"@type": "Organization", "name": "Le Parisien"}}
     if cfg.get("linkedin_joel"):
         personne["sameAs"] = [cfg["linkedin_joel"]]
 
@@ -549,7 +552,12 @@ def jsonld(page, cfg, ariane):
             "headline": "Transport fluvial de passagers : RivesEnReves convertit sa flotte au bioGNV",
             "url": "https://www.gaz-mobilite.fr/actus/transport-fluvial-passagers-rivesenreves-convertit-flotte-biognv-3827.html",
             "datePublished": "2024-03-06", "author": {"@type": "Person", "name": "Adeline Adelski"},
-            "publisher": {"@type": "Organization", "name": "Gaz-Mobilité"}}]
+            "publisher": {"@type": "Organization", "name": "Gaz-Mobilité"}},
+            {"@type": "NewsArticle",
+             "headline": "Seine-et-Marne : marin d'eau douce né, Joël Le Mercier révèle les secrets des cours d'eau",
+             "url": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-marin-d-eau-douce-ne-joel-le-mercier-revele-les-secrets-des-cours-d-eau-28-09-2020-8393304.php",
+             "datePublished": "2020-09-28", "about": {"@id": person_id},
+             "publisher": {"@type": "Organization", "name": "Le Parisien"}}]
         org["award"] = "Lauréat de l'appel à projets GRDF pour la décarbonation du transport fluvial et maritime côtier (2024)"
         org["slogan"] = "Exploiter, conseiller et faire naviguer : la voie d'eau, notre métier"
         org["email"] = org.get("email") or None
