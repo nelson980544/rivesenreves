@@ -33,5 +33,8 @@
 
   "linkedin_joel": "",
 
-  "date_mise_a_jour_site": "2026-10-08"
+  "date_mise_a_jour_site": "2026-11-04",
+
+  "indexnow_key": "fbee0b6d98583fe94000694a3d25859a",
+  "_aide_indexnow": "Clé IndexNow (Bing, Copilot, Yandex…) : publier.sh signale automatiquement les pages mises à jour. Ne pas modifier."
 }

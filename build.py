@@ -292,6 +292,42 @@ def bloc_faq(meta):
             '<h2 id="faq-titre">%s</h2><div class="faq-list">%s</div></div></section>' % (titre, items))
 
 
+ORDRE_UNIVERS = ["balades", "plaisanciers", "professionnels", "administrations"]
+
+
+def toutes_les_faq(pages):
+    """Regroupe les FAQ de toutes les pages, par univers (page Questions fréquentes)."""
+    groupes, vues = {}, set()
+    for p in sorted(pages, key=lambda p: (p["url"].count("/"), p["meta"].get("ordre", 50), p["url"])):
+        if p["meta"].get("faq_toutes") or p["meta"].get("noindex"):
+            continue
+        u = p["meta"].get("univers") or "rivesenreves"
+        for q in p["meta"].get("faq") or []:
+            if q["q"] in vues:
+                continue
+            vues.add(q["q"])
+            groupes.setdefault(u, []).append(dict(q, url=p["url"], label=p["meta"]["label"]))
+    return groupes
+
+
+def bloc_faq_toutes(page, pages):
+    groupes = toutes_les_faq(pages)
+    noms = dict((k, v["nom"]) for k, v in UNIVERS.items())
+    noms["rivesenreves"] = "RivesEnRêves"
+    html_ = ""
+    for u in ORDRE_UNIVERS + ["rivesenreves"]:
+        if u not in groupes:
+            continue
+        items = "".join(
+            '<details class="faq-item"><summary><h3>%s</h3></summary><div class="faq-answer"><p>%s</p>'
+            '<p><a class="link-arrow" href="%s%s">%s</a></p></div></details>'
+            % (html.escape(q["q"]), q["a"], page["root"], q["url"], html.escape(q["label"])) for q in groupes[u])
+        html_ += ('<section class="section-tight u-%s" aria-labelledby="faq-%s"><div class="container narrow">'
+                  '<h2 id="faq-%s">%s</h2><div class="faq-list">%s</div></div></section>'
+                  % (u, u, u, noms[u], items))
+    return html_
+
+
 def bloc_autres_univers(page):
     courant = page["meta"].get("univers")
     cartes = ""
@@ -504,6 +540,14 @@ def jsonld(page, cfg, ariane):
         personne["sameAs"] = [cfg["linkedin_joel"]]
 
     if page["url"] == "" or page["url"].startswith("a-propos"):
+        org["hasOfferCatalog"] = {
+            "@type": "OfferCatalog", "name": "Services de RivesEnRêves",
+            "itemListElement": [{"@type": "Offer", "itemOffered": {
+                "@type": "Service", "name": s["name"], "description": s["description"],
+                "url": base + p["url"]}} for p, s in SERVICES_TOUS]}
+        org["slogan"] = "Exploiter, conseiller et faire naviguer : la voie d'eau, notre métier"
+        org["email"] = org.get("email") or None
+        org = {k: v for k, v in org.items() if v is not None}
         graph += [org, personne]
         if page["url"] == "":
             graph.append({"@type": "WebSite", "@id": base + "#site", "url": base,
@@ -578,6 +622,7 @@ def rendre_corps(page, pages, cfg):
     c = TOKEN_IMG.sub(lambda m: rendre_img(parse_attrs(m.group(1)), page), c)
     c = TOKEN_ART.sub(lambda m: bloc_articles(pages, page, m.group(1)), c)
     c = TOKEN_FAIT.sub(lambda m: FAITS[m.group(1)], c)
+    c = c.replace("{{faq-toutes}}", bloc_faq_toutes(page, pages))
     c = c.replace("{{faq}}", bloc_faq(page["meta"]))
     c = c.replace("{{autres-univers}}", bloc_autres_univers(page))
     c = c.replace("{{definition}}", DEFINITION)
@@ -603,6 +648,50 @@ def rendre_logo(page):
             '<span class="b3">Rêves</span></span>' % page["root"])
 
 
+SERVICES_TOUS = []
+
+
+def texte_brut(fragment):
+    """Convertit le contenu HTML d'une page en texte Markdown simple (llms-full.txt)."""
+    from html.parser import HTMLParser
+
+    class P(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.out, self.skip, self.cell = [], 0, False
+        def handle_starttag(self, tag, attrs):
+            a = dict(attrs)
+            if tag in ("script", "style", "nav", "svg", "figure", "video", "form", "button") or \
+                    "switcher" in (a.get("class") or "") or "btn-row" in (a.get("class") or ""):
+                self.skip += 1
+            if self.skip:
+                return
+            if tag in ("h1", "h2", "h3"):
+                self.out.append("\n\n" + "#" * int(tag[1]) + " ")
+            elif tag == "li":
+                self.out.append("\n- ")
+            elif tag in ("p", "dt", "tr", "summary", "div"):
+                self.out.append("\n")
+            elif tag in ("td", "th", "dd"):
+                self.out.append(" | " if self.cell else "")
+                self.cell = True
+        def handle_endtag(self, tag):
+            if tag in ("script", "style", "nav", "svg", "figure", "video", "form", "button"):
+                self.skip = max(0, self.skip - 1)
+            if tag == "tr":
+                self.cell = False
+        def handle_data(self, d):
+            if not self.skip:
+                self.out.append(re.sub(r"\s+", " ", d))
+    pr = P()
+    pr.feed(fragment)
+    t = "".join(pr.out)
+    t = re.sub(r"[ \t]+\n", "\n", t)
+    t = re.sub(r"\n[ \t]+", "\n", t)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
+
+
 def construire():
     cfg = charger_config()
     if OUT.exists():
@@ -612,6 +701,10 @@ def construire():
     gabarit = (TEMPLATES / "base.html").read_text(encoding="utf-8")
     pages = lire_pages()
     index = {p["url"]: p for p in pages}
+    SERVICES_TOUS[:] = [(p, s) for p in pages for s in p["meta"].get("services", [])]
+    for p in pages:
+        if p["meta"].get("faq_toutes"):
+            p["meta"]["faq"] = [q for g in toutes_les_faq(pages).values() for q in g]
 
     for page in pages:
         meta = page["meta"]
@@ -656,6 +749,8 @@ def construire():
         dest = OUT / page["fichier"]
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(sortie, encoding="utf-8")
+        m = re.search(r"<main[^>]*>(.*?)</main>", sortie, re.S)
+        page["texte"] = texte_brut(m.group(1)) if m else ""
 
     # Fichiers statiques (CSS, JS, polices, images, robots.txt, llms.txt, .htaccess)
     TEXTE = {".css", ".js", ".txt", ".xml", ".svg", ".htaccess", ".json", ".webmanifest", ".md"}
@@ -684,6 +779,20 @@ def construire():
     ph.mkdir(parents=True, exist_ok=True)
     for nom, d in PHOTOS_MANQUANTES.items():
         (ph / ("%s.svg" % nom)).write_text(svg_provisoire(nom, d["hint"], d["w"], d["h"]), encoding="utf-8")
+
+    # llms-full.txt : tout le contenu du site en texte, pour les moteurs d'IA
+    if not APERCU:
+        blocs = ["# RivesEnRêves : contenu complet du site\n\n> %s\n\nSite : %s · Mise à jour : %s · Contact : %s · %s"
+                 % (DEFINITION, cfg["base_url"], cfg.get("date_mise_a_jour_site"),
+                    cfg.get("email_contact"), cfg.get("telephone"))]
+        for p in pages:
+            if p["meta"].get("noindex") or p["url"] in ("404.html",) or p["meta"].get("faq_toutes"):
+                continue
+            blocs.append("---\n\nURL : %s%s\n\n%s" % (cfg["base_url"], p["url"], p.get("texte", "")))
+        (OUT / "llms-full.txt").write_text("\n\n".join(blocs) + "\n", encoding="utf-8")
+        cle = cfg.get("indexnow_key")
+        if cle:
+            (OUT / ("%s.txt" % cle)).write_text(cle, encoding="utf-8")
 
     # sitemap.xml
     lignes = ['<?xml version="1.0" encoding="UTF-8"?>',

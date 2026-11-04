@@ -43,6 +43,11 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - [Conseil en tourisme fluvial](https://[NOM_DE_DOMAINE]/administrations/conseil-tourisme-fluvial/)
 - [Références collectivités](https://[NOM_DE_DOMAINE]/administrations/references/)
 
+## Pour aller plus loin
+
+- [Contenu complet du site en texte](https://[NOM_DE_DOMAINE]/llms-full.txt)
+- [Questions fréquentes (toutes les réponses)](https://[NOM_DE_DOMAINE]/questions-frequentes/)
+
 ## Entreprise
 
 - [À propos et Joël Le Mercier](https://[NOM_DE_DOMAINE]/a-propos/)

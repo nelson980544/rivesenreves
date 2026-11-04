@@ -22,3 +22,12 @@ if git diff --cached --quiet; then echo "Rien de nouveau à publier."; exit 0; f
 git commit -q -m "$MSG"
 git push -q origin HEAD:gh-pages
 echo "Publié sur https://rivesenreves.com"
+
+# IndexNow : signale les pages à Bing (et donc Copilot, ChatGPT…), Yandex, Seznam, Naver
+KEY="$(python3 -c 'import json;print(json.load(open("config.json")).get("indexnow_key",""))' 2>/dev/null || true)"
+if [ -n "$KEY" ]; then
+  URLS="$(grep -o '<loc>[^<]*' "$SITE/out/sitemap.xml" | sed 's/<loc>//' | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')"
+  curl -s -o /dev/null -w "IndexNow : réponse %{http_code}\n" -X POST "https://api.indexnow.org/indexnow" \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d "{\"host\":\"rivesenreves.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://rivesenreves.com/$KEY.txt\",\"urlList\":$URLS}" || true
+fi

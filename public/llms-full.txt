@@ -1,0 +1,668 @@
+# RivesEnRêves : contenu complet du site
+
+> RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
+
+Site : https://rivesenreves.com/ · Mise à jour : 2026-11-04 · Contact : contact@rivesenreves.com · 06 07 88 57 78
+
+---
+
+URL : https://rivesenreves.com/a-propos/
+
+À propos
+
+# RivesEnRêves, bâtisseur de vie au bord de l'eau
+
+RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
+Son territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne.
+
+## Notre histoire : des berges vides aux haltes vivantes
+L'aventure commence en 2010, quand Joël Le Mercier lance le concept RivesEnRêves : des balades sur mesure et des gîtes nautiques. D'abord exercée en auto-entreprise, l'activité est transférée le 1er juin 2021 à la société RivesEnRêves (SASU), immatriculée en janvier 2022.
+De 2019 à 2025, RivesEnRêves a exploité 4 haltes fluviales sur la Marne, en collaboration avec Coulommiers Pays de Brie Tourisme :
+- La Ferté-sous-Jouarre (2 haltes) ;
+- Saint-Jean-les-Deux-Jumeaux ;
+- Nanteuil-sur-Marne.
+Leur point commun : il n'y avait rien à l'origine. Ni ponton, ni accueil, ni activité.
+L'entreprise a créé l'activité de toutes pièces :
+- Aménager : rendre les berges accessibles, installer de quoi amarrer et accueillir.
+- Accueillir les plaisanciers : leur offrir une escale sûre, des services et des conseils.
+- Animer les berges : faire venir le public, créer des rendez-vous au bord de l'eau.
+C'est là que s'est forgé notre savoir-faire de développeur de sites fluviaux : voir le potentiel d'une berge, la rendre accessible et la faire vivre. Ce savoir-faire nourrit aujourd'hui nos quatre métiers : les balades et le gîte nautique, les services aux plaisanciers, les solutions pour les professionnels et le conseil aux collectivités.
+Sur l'ensemble des haltes, ce sont 40 bateaux amarrés à l'année et une centaine de bateaux de passage accueillis à la nuitée. Des plaisanciers de tous horizons, venus de toute la France comme de l'étranger, qui ont découvert la Marne en faisant escale chez nous.
+
+## Nos repères
+
+Repère | Ce que nous avons fait
+Depuis 2010 | Concept RivesEnRêves : balades sur mesure et gîtes nautiques ; auto-entreprise, puis société (SASU) depuis 2021.
+Territoire | Bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et Canal de Bourgogne.
+Marne, 2019-2025 | 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine : La Ferté-sous-Jouarre (2 haltes), Saint-Jean-les-Deux-Jumeaux et Nanteuil-sur-Marne.
+Canal de Bourgogne | La Billebaude : bateau à passagers trouvé aux Pays-Bas et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny.
+VNF | Mission de conseil en logistique fluviale ; études de report modal vers le fluvial financées par VNF.
+Fublaines | Site en bord de Marne (Seine-et-Marne), occupé dans le cadre d'une sous-occupation de la convention de Valfrance : notre base d'activité.
+Interventions | Renflouement d'un bateau à l'aide de ballons de flottaison ; sortie de l'eau et recyclage de bateaux en fin de vie.
+Partenaires | Coulommiers Pays de Brie Tourisme (haltes de la Marne) ; APER, Association pour une plaisance éco-responsable (recyclage des bateaux) ; Paprec Environnement (découpe).
+
+## Fiche d'identité
+Informations issues de l'extrait Kbis (Registre du commerce et des sociétés, greffe du tribunal de commerce de Meaux).
+
+Dénomination | RivesEnRêves
+Nom commercial | Rives en Rêves
+Forme juridique | Société par actions simplifiée à associé unique (SASU), au capital de 1 500 €
+Président | Joël Le Mercier
+Activités | Transport fluvial de passagers, gîtes nautiques, services aux plaisanciers, gestion technique et commerciale de ports et de haltes de plaisance, armement fluvial
+Origine | Activité lancée en 2010 en auto-entreprise, transférée à la société le 1er juin 2021
+Immatriculation | 21 janvier 2022 · RCS Meaux 909 449 548
+SIRET | 909 449 548 00025
+Siège | Poincy (Seine-et-Marne) · adresse complète dans les mentions légales
+
+Le fondateur
+
+## Joël Le Mercier, fondateur de RivesEnRêves
+Gestionnaire, maître de port et commandant de bord, Joël Le Mercier est le fondateur de RivesEnRêves. Passionné par le fluvial et le côtier depuis ses 16 ans, il a navigué sur la quasi-totalité des fleuves et canaux français, sur une très grande diversité de bateaux. Homme de terrain, il a fait de la voie d'eau à la fois son métier et son engagement : faire en sorte que les rivières et les canaux soient habités, utilisés et aimés.
+
+### Un bâtisseur de haltes fluviales
+Sur la Marne, il a conçu, aménagé et exploité quatre haltes fluviales entre 2019 et 2025, en collaboration avec Coulommiers Pays de Brie Tourisme : deux à La Ferté-sous-Jouarre, une à Saint-Jean-les-Deux-Jumeaux et une à Nanteuil-sur-Marne, là où il n'existait rien. Il y a accueilli des plaisanciers, organisé la vie des berges et appris, saison après saison, ce qui fait réussir un site fluvial.
+
+### Une expertise de terrain
+- Exploitation de sites fluviaux et accueil du public ;
+- Navigation et convoyage de bateaux, en poussage comme à couple : depuis 2012, plusieurs convoyages à couple jusqu'à 100 tonnes ;
+- Interventions sur l'eau, dont plusieurs en appui des pompiers ;
+- Réglementation fluviale : maîtrise des règlements de police de la navigation (RGP, RPP) ;
+- Travaux sur bateaux : renflouement à l'aide de ballons de flottaison, sortie de l'eau de bateaux en fin de vie, en lien avec l'APER et Paprec Environnement pour leur recyclage ;
+- Relations avec les gestionnaires de voies navigables et les acteurs portuaires, dont VNF.
+
+### Une posture de conseil
+Cette expérience d'exploitant, Joël Le Mercier la met au service des autres : il a mené une mission de conseil en logistique fluviale pour VNF, réalise des études de report modal financées par VNF et accompagne les collectivités, comme la Communauté de communes de Pouilly-Bligny, dans leurs projets de tourisme fluvial.
+
+### Parcours
+Avant de se consacrer à la voie d'eau, Joël Le Mercier a mené une première carrière de dirigeant et créateur d'entreprises dans l'informatique et le numérique : directeur d'agence, responsable qualité, directeur technique chez GDP – France Télécom, puis président fondateur de Synaptique Europ (société de conseil technologique comptant près de 300 ingénieurs dans 11 pays), d'iEurop et de WhiterNet. Il en a gardé le sens de la gestion, de l'organisation et du pilotage de projets.
+En 2010, il lance le concept RivesEnRêves, d'abord en auto-entreprise, puis en société depuis 2021.
+
+### Qualifications
+- Permis fluvial et permis mer côtier (2007), extension grande plaisance (2011)
+- Certificat restreint de radiotéléphoniste (CRR) maritime et fluvial (2010)
+- Attestation spéciale passagers (2018), pour le transport de passagers
+- Secourisme : PSC1 (2018)
+- Formation à la gestion de crise et de panique
+- BTS Gestion de production et gestion de la qualité ; formation d'ingénieur au CNAM
+
+### Vision et valeurs
+- Le terrain d'abord : on ne conseille bien que ce qu'on a soi-même fait.
+- La voie d'eau comme avenir : pour le tourisme, pour la logistique, pour les territoires.
+- La parole tenue : un interlocuteur unique, du premier appel au résultat.  « La Marne, la plus belle rivière de France. »Joël Le Mercier, président et fondateur de RivesEnRêves
+
+## Nos quatre univers
+
+### Balades
+Balades en bateau et gîte nautique.Particuliers
+
+### Plaisanciers
+Convoyage, renflouement, découpe.Propriétaires de bateaux
+
+### Professionnels
+Report modal financé par VNF, logistique, interventions.Entreprises et ports
+
+### Administrations
+Conseil en tourisme fluvial.Collectivités
+
+---
+
+URL : https://rivesenreves.com/administrations/conseil-tourisme-fluvial/
+
+Administrations
+
+# Conseil en développement du tourisme fluvial
+
+RivesEnRêves accompagne les collectivités de l'idée à la mise en œuvre de leur projet de tourisme fluvial : faisabilité, choix du bateau et des équipements, aménagement de haltes, exploitation et montage de l'activité touristique.
+
+---
+
+URL : https://rivesenreves.com/administrations/
+
+Univers Administrations
+
+# Conseil en développement du tourisme fluvial pour les collectivités
+
+RivesEnRêves accompagne les collectivités et les établissements publics dans leurs projets de tourisme fluvial, de l'idée à la mise en œuvre. Notre légitimité : 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine, et l'accompagnement de la Communauté de communes de Pouilly-Bligny dans l'achat de son bateau.
+
+---
+
+URL : https://rivesenreves.com/administrations/references/
+
+Administrations
+
+# Nos références auprès des collectivités
+
+Deux références illustrent notre savoir-faire pour les territoires : l'accompagnement de la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau pour le Canal de Bourgogne, et la création puis l'exploitation de 4 haltes fluviales sur la Marne.
+
+Canal de Bourgogne
+
+## Communauté de communes de Pouilly-Bligny : La Billebaude
+
+ContexteLa collectivité et son office de tourisme cherchaient un bateau pour lancer des balades fluviales sur le Canal de Bourgogne.
+
+Mission | Recherche du bateau aux Pays-Bas, puis acheminement de La Billebaude depuis la Hollande jusqu'à Pouilly-en-Auxois.
+
+Résultat | La Billebaude, vendue à la collectivité, assure des balades fluviales sur le Canal de Bourgogne.
+
+Marne · 2019-2025
+
+## 4 haltes fluviales créées et exploitées sur la Marne
+
+Contexte | Des berges de la Marne sans aucun équipement d'accueil.
+
+Partenaire | Coulommiers Pays de Brie Tourisme
+
+Mission | Création de toutes pièces de 4 haltes fluviales (La Ferté-sous-Jouarre (2 haltes), Saint-Jean-les-Deux-Jumeaux et Nanteuil-sur-Marne), en collaboration avec Coulommiers Pays de Brie Tourisme : aménagement, accueil des plaisanciers, animation des berges.
+
+Résultat | 4 haltes exploitées de 2019 à 2025, avec 40 bateaux amarrés à l'année et une centaine de bateaux de passage accueillis à la nuitée.
+Voir toutes les références RivesEnRêves
+
+## Questions fréquentes
+
+### Quelles collectivités RivesEnRêves a-t-elle accompagnées ?
+
+RivesEnRêves a notamment accompagné la Communauté de communes de Pouilly-Bligny et son office de tourisme : nous avons trouvé aux Pays-Bas La Billebaude, un bateau à passagers, et l'avons acheminé jusqu'à Pouilly-en-Auxois pour des balades fluviales sur le Canal de Bourgogne.
+
+### RivesEnRêves a-t-elle déjà créé des haltes fluviales ?
+
+Oui : RivesEnRêves a exploité 4 haltes fluviales sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine.
+
+## Votre territoire, notre prochaine référence ?
+Parlons de votre projet de tourisme fluvial.
+
+---
+
+URL : https://rivesenreves.com/balades-bateau/balade-en-bateau/
+
+Balades · Particuliers et événements
+
+# Balade en bateau sur la Seine et la Marne, à bord du Seine et Marne ou du Cormoran
+
+RivesEnRêves propose deux bateaux pour vos balades sur la Seine et la Marne : le Seine et Marne (150 passagers) et Le Cormoran (12 places). Le premier se loue aussi en entier pour un mariage, un séminaire ou tout autre événement ; le second est idéal en petit comité.
+
+---
+
+URL : https://rivesenreves.com/balades-bateau/gite-nautique/
+
+Balades · Particuliers
+
+# Gîte nautique : une nuit insolite au fil de l'eau
+
+Le gîte nautique RivesEnRêves, c'est le Noix de Coco : un bateau de plaisance amarré à quai et aménagé pour y séjourner. On s'endort bercé par l'eau et on se réveille au milieu des bateaux, face à la rivière.
+
+---
+
+URL : https://rivesenreves.com/balades-bateau/
+
+Univers Balades · Particuliers
+
+# Balades en bateau sur la Seine et la Marne, événements et gîte nautique
+
+RivesEnRêves vous emmène sur la Seine et la Marne à bord du Seine et Marne, un bateau de 150 passagers, ou du Cormoran, 12 places, pour une balade en famille ou entre amis. Le bateau se loue aussi pour vos mariages, séminaires et événements. Et pour prolonger le moment, dormez à bord de notre gîte nautique.
+Le Seine et Marne est en travaux et reprendra ses balades en 2027.
+
+---
+
+URL : https://rivesenreves.com/blog/collectivite-acheter-bateau-tourisme-fluvial/
+
+Administrations
+
+# Comment une collectivité peut-elle acheter un bateau pour développer le tourisme fluvial ?
+Par Joël Le Mercier, fondateur de RivesEnRêves · Publié le 8 octobre 2026 · Mis à jour le 8 octobre 2026
+
+En bref : une collectivité peut acheter un bateau pour développer le tourisme fluvial si elle définit d'abord l'usage touristique visé, vérifie les contraintes de la voie d'eau, choisit qui exploitera le bateau, puis achète dans le respect de la commande publique. C'est la démarche suivie par la Communauté de communes de Pouilly-Bligny, accompagnée par RivesEnRêves, pour naviguer sur le Canal de Bourgogne.
+
+## 1. Définir l'usage touristique du bateau
+Le bateau n'est pas une fin en soi : c'est un outil au service d'un projet de territoire. Avant de parler de modèle ou de prix, la collectivité doit répondre à trois questions :
+- Pour quoi faire ? Promenades commentées, navette entre deux sites, animations, accueil de groupes scolaires, événements…
+- Pour qui ? Habitants, touristes de passage, groupes, familles, personnes à mobilité réduite.
+- Avec quel objectif ? Attirer des visiteurs, valoriser un patrimoine, faire vivre un port ou une halte, prolonger les séjours.
+Ces réponses déterminent la capacité du bateau, son aménagement et son mode d'exploitation.
+
+## 2. Étudier la voie d'eau
+Chaque rivière et chaque canal a ses contraintes. Il faut connaître :
+- le gestionnaire de la voie d'eau (souvent VNF sur le réseau magistral) et ses règles ;
+- le gabarit : dimensions des écluses, tirant d'eau (profondeur) et tirant d'air (hauteur sous les ponts) ;
+- la saison de navigation, les périodes de fermeture pour travaux (chômages) et les horaires des écluses ;
+- les points d'embarquement possibles : pontons existants, accès, stationnement, et les autorisations d'occupation du domaine public fluvial à obtenir.
+
+## 3. Choisir le modèle d'exploitation avant le bateau
+C'est l'erreur la plus fréquente : acheter un bateau sans savoir qui le fera naviguer. Plusieurs modèles existent :
+
+Modèle | Principe | Points d'attention
+Régie | La collectivité exploite elle-même le bateau avec ses agents. | Qualifications des conducteurs, recrutement saisonnier, maintenance.
+Délégation ou convention | Un exploitant gère l'activité pour le compte de la collectivité. | Cahier des charges, partage des recettes et des risques.
+Partenariat local | Office de tourisme, association ou entreprise locale associée au projet. | Gouvernance claire, responsabilités et assurances.
+
+## 4. Choisir le bateau
+Une fois l'usage, la voie d'eau et l'exploitation définis, le choix du bateau devient rationnel :
+- dimensions compatibles avec les écluses et les ponts ;
+- capacité adaptée à la fréquentation attendue, et aux règles applicables au transport de passagers ;
+- motorisation : coût d'usage, bruit, émissions (les motorisations électriques ou hybrides sont un argument touristique fort) ;
+- accessibilité aux personnes à mobilité réduite ;
+- neuf ou occasion : délais, budget et état réel du bateau, à faire expertiser.
+
+## 5. Acheter et mettre en service
+L'achat d'une collectivité suit les règles de la commande publique : un cahier des charges précis, issu des étapes précédentes, sécurise la consultation. Il faut ensuite anticiper :
+- les titres et documents de navigation du bateau ;
+- l'assurance ;
+- le convoyage du bateau jusqu'à son port d'attache ;
+- l'aménagement du point d'embarquement ;
+- la formation des équipes et le lancement de l'offre touristique (tarifs, réservations, communication).
+Les recherches de financements (Région, Département, fonds européens…) se préparent en parallèle, le plus en amont possible.
+
+## L'exemple de la Communauté de communes de Pouilly-Bligny
+RivesEnRêves a accompagné la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau pour naviguer sur le Canal de Bourgogne et développer l'activité touristique du territoire. Sollicités par la collectivité et son office de tourisme, nous avons trouvé le bateau aux Pays-Bas, La Billebaude, puis l'avons acheminé depuis la Hollande jusqu'à Pouilly-en-Auxois. La collectivité l'exploite aujourd'hui pour des balades fluviales sur le Canal de Bourgogne. Un bon exemple : le bateau adapté n'est pas toujours en France, et son acheminement fait partie du projet. Voir l'étude de cas.
+Notre légitimité vient aussi de l'exploitation : RivesEnRêves compte à son actif 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine. Nous savons ce qu'un équipement fluvial doit apporter pour attirer et fidéliser les visiteurs.
+
+## Votre collectivité envisage d'acheter un bateau ?
+RivesEnRêves vous accompagne de la définition du besoin à la mise en service.
+
+---
+
+URL : https://rivesenreves.com/blog/convoyage-bateau-chantier-demarches/
+
+Plaisanciers
+
+# Comment organiser le convoyage d'un bateau vers un chantier et quelles démarches administratives prévoir ?
+Par Joël Le Mercier, fondateur de RivesEnRêves · Publié le 8 octobre 2026 · Mis à jour le 8 octobre 2026
+
+En bref : pour convoyer un bateau vers un chantier, il faut fixer une date avec le chantier, vérifier l'état du bateau, réunir ses documents, s'assurer que l'assurance couvre le trajet, s'acquitter des droits de navigation, consulter les avis à la batellerie et confier la conduite à une personne qualifiée. RivesEnRêves prend en charge l'ensemble, y compris toute la partie administrative.
+
+## 1. Caler le rendez-vous avec le chantier
+Tout part de la date d'arrivée au chantier. Les chantiers fluviaux planifient leurs mises à sec (grutage, slipway, cale) des semaines à l'avance, surtout avant et après la saison. Convenez avec eux :
+- de la date et de l'heure d'arrivée ;
+- des travaux prévus et de la durée d'immobilisation ;
+- du lieu exact d'accostage et de la personne à prévenir à l'arrivée.
+
+## 2. Vérifier l'état du bateau
+Un bateau qui va au chantier n'est pas toujours en parfait état : c'est souvent la raison du voyage. Avant le départ, on vérifie au minimum :
+- le moteur, le carburant et le refroidissement ;
+- l'étanchéité et le fonctionnement des pompes de cale ;
+- la barre, les feux de navigation et l'équipement de sécurité ;
+- les amarres et les défenses, indispensables aux passages d'écluses.
+Si le bateau ne peut pas naviguer par ses propres moyens, il faut prévoir un remorquage ou un poussage : c'est une autre organisation, à étudier au cas par cas.
+
+## 3. Les démarches administratives
+C'est la partie la plus chronophage pour un propriétaire, et celle que RivesEnRêves prend entièrement en charge.
+
+Démarche | Pourquoi
+Documents du bateau (titre de navigation, immatriculation selon le bateau) | Ils doivent être à bord et à jour pendant la navigation.
+Assurance | Vérifier que le contrat couvre le convoyage, avec un conducteur qui n'est pas le propriétaire.
+Péage de navigation (vignette VNF) | Obligatoire pour la plaisance sur le réseau géré par VNF.
+Qualification du conducteur | Le conducteur doit détenir le permis adapté au bateau et aux eaux intérieures.
+Échanges avec les gestionnaires | Ports d'escale, éventuelles autorisations de stationnement, écluses à horaires particuliers.
+Coordination avec le chantier | Confirmation de la date, des travaux et des conditions de réception du bateau.
+
+## 4. Préparer l'itinéraire
+Sur les rivières et canaux, l'itinéraire se prépare avec soin :
+- Avis à la batellerie : publiés par le gestionnaire de la voie d'eau, ils signalent fermetures, travaux, restrictions et chômages.
+- Écluses : horaires de fonctionnement, temps de passage, écluses manœuvrées sur demande.
+- Gabarit : tirant d'eau et tirant d'air du bateau compatibles avec le parcours.
+- Niveaux d'eau : en période de crue, la navigation peut être interdite ou déconseillée.
+- Étapes : où s'arrêter le soir, où faire le plein.
+Notre connaissance de la Marne vient du terrain : RivesEnRêves compte à son actif 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, au contact quotidien des plaisanciers et des gestionnaires.
+
+## 5. Le jour du convoyage
+- Prise en charge
+Remise du bateau, des clés et des documents ; état des lieux.
+- Navigation
+Trajet en sécurité, avec des points d'information au propriétaire.
+- Remise au chantier
+Accostage, remise au responsable du chantier, confirmation au propriétaire.
+
+## Confiez-nous le convoyage de votre bateau
+Nous organisons le trajet jusqu'au chantier et prenons en charge toute la partie administrative.
+
+---
+
+URL : https://rivesenreves.com/blog/etude-report-modal-financee-vnf/
+
+Professionnels
+
+# Comment faire financer par VNF une étude pour basculer vos transports sur le fluvial ?
+Par Joël Le Mercier, fondateur de RivesEnRêves · Publié le 8 octobre 2026 · Mis à jour le 8 octobre 2026
+
+En bref : une entreprise qui envisage de faire passer tout ou partie de ses transports de la route à la voie d'eau peut faire réaliser une étude de report modal. RivesEnRêves réalise ces études, qui sont financées par VNF : elles ne coûtent rien ou presque à l'entreprise. Il suffit de nous décrire vos flux pour vérifier votre éligibilité.
+
+## Qu'est-ce qu'une étude de report modal ?
+Le report modal consiste à transférer des transports d'un mode vers un autre, ici de la route vers la voie d'eau. Une étude de report modal répond à une question simple : mes flux de marchandises peuvent-ils passer sur le fluvial, et est-ce intéressant pour mon entreprise ?
+Elle compare votre organisation actuelle à une solution fluviale réaliste, en tenant compte des ports, des voies navigables, des pré- et post-acheminements et de vos contraintes.
+
+## Pourquoi VNF la finance
+Voies navigables de France (VNF) gère la majeure partie du réseau navigable français et a pour mission d'en développer l'usage, notamment pour le transport de marchandises. Aider les entreprises à étudier leur passage au fluvial fait partie de cette mission : c'est pourquoi les études de report modal réalisées par RivesEnRêves sont financées par VNF.
+Les conditions de prise en charge dépendent de chaque projet : nous les vérifions avec vous dès le premier échange.
+
+## Les étapes pour en bénéficier
+- Prendre contact
+Décrivez à RivesEnRêves la nature des marchandises transportées et vos trajets actuels.
+- Vérifier l'éligibilité
+Nous examinons ensemble si votre projet peut bénéficier d'une étude financée par VNF.
+- Réaliser l'étude
+Analyse de vos flux, faisabilité, comparaison et scénarios.
+- Décider
+Vous recevez des recommandations concrètes pour passer, ou non, à l'action.
+
+## Ce que contient l'étude
+
+Volet | Questions traitées
+Vos flux | Quelles marchandises, quels volumes, entre quels points, à quelle fréquence ?
+Faisabilité fluviale | Quelles voies d'eau et quels ports utiliser ? Quels bateaux ? Quelles ruptures de charge ?
+Comparaison avec la route | Coûts, délais, fiabilité, émissions de CO₂ : que gagne-t-on, que perd-on ?
+Scénarios de bascule | Report total ou partiel, progressif ou immédiat, avec quels partenaires ?
+Recommandations | Plan d'action, étapes, points de vigilance.
+
+## Les informations à préparer
+- la nature des marchandises ou matériaux (vrac, palettes, conteneurs, colis lourds, déchets…) ;
+- les volumes annuels et leur saisonnalité ;
+- les origines et destinations (adresses des sites) ;
+- la fréquence des envois et vos contraintes de délai ;
+- le conditionnement et les moyens de manutention disponibles ;
+- si possible, vos coûts de transport actuels.
+Pas de panique si certaines données manquent : l'étude commence justement par un échange pour les reconstituer.
+
+## Pourquoi RivesEnRêves ?
+RivesEnRêves a mené une mission de conseil en logistique fluviale pour VNF et dispose d'une base en bord de Marne : le site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance. Nous connaissons le réseau, ses acteurs et ses contraintes concrètes.
+
+## Vérifiez l'éligibilité de votre entreprise
+Décrivez vos marchandises et vos trajets actuels : nous vous répondons sur la possibilité d'une étude financée par VNF.
+
+---
+
+URL : https://rivesenreves.com/blog/
+
+Blog et ressources
+
+# Conseils et guides pour vivre et utiliser la voie d'eau
+
+Des réponses concrètes aux questions de chaque public, rédigées par Joël Le Mercier à partir de l'expérience de terrain de RivesEnRêves : haltes de la Marne, convoyages, conseil à VNF et aux collectivités.
+
+Administrations
+
+### Comment une collectivité peut-elle acheter un bateau pour développer le tourisme fluvial ?
+Guide pour les élus : définir l'usage, étudier la voie d'eau, choisir l'exploitation, acheter le bateau et le mettre en service. Exemple de Pouilly-Bligny.Mis à jour le 8 octobre 2026Lire l'articlePlaisanciers
+
+### Comment organiser le convoyage d'un bateau vers un chantier et quelles démarches administratives prévoir ?
+Convoyer un bateau vers un chantier : documents, assurance, péage VNF, avis à la batellerie, coordination avec le chantier. Le guide des démarches.Mis à jour le 8 octobre 2026Lire l'articleProfessionnels
+
+### Comment faire financer par VNF une étude pour basculer vos transports sur le fluvial ?
+Passer au transport fluvial : ce qu'est une étude de report modal, pourquoi VNF la finance, son déroulé et les informations à préparer.Mis à jour le 8 octobre 2026Lire l'article
+
+## Prochainement
+- Administrations : Comment créer une halte fluviale ?
+- Professionnels : Comment renflouer un bateau coulé sur un site portuaire ?
+- Balades : Que faire sur la Marne en famille ?
+
+---
+
+URL : https://rivesenreves.com/confidentialite/
+
+# Politique de confidentialité
+Dernière mise à jour : 2026-11-04
+
+En bref : ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Les seules données collectées sont celles que vous saisissez dans le formulaire de contact, utilisées uniquement pour vous répondre.
+
+## Responsable du traitement
+RivesEnRêves, SASU au capital de 1 500 €, RCS Meaux 909 449 548, siège à Poincy (77) (adresse complète dans les mentions légales), représentée par Joël Le Mercier, président. · contact@rivesenreves.com
+
+## Données collectées et finalité
+Via le formulaire de contact : nom, adresse e-mail, téléphone (facultatif), profil, message et informations complémentaires que vous choisissez de fournir. Finalité : répondre à votre demande (information, devis, réservation). Base légale : votre consentement et les mesures précontractuelles prises à votre demande.
+
+## Destinataires
+Les messages sont transmis par e-mail à RivesEnRêves par l'intermédiaire d'un service d'envoi de formulaires (FormSubmit, formsubmit.co), qui agit comme sous-traitant technique. Les données ne sont ni vendues ni cédées.
+
+## Durée de conservation
+Les échanges sont conservés le temps nécessaire au traitement de votre demande puis, sans suite commerciale, au plus 3 ans à compter du dernier contact.
+
+## Vos droits
+Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition. Pour l'exercer, écrivez à contact@rivesenreves.com. Vous pouvez également introduire une réclamation auprès de la CNIL (cnil.fr).
+
+## Hébergement
+Le site est hébergé par GitHub Pages (GitHub, Inc., États-Unis). Lors de la consultation, GitHub traite des données techniques de connexion (dont l'adresse IP) pour assurer la sécurité et le bon fonctionnement du service. Le site ne stocke aucune donnée personnelle. Voir les mentions légales.
+
+## Cookies et services tiers
+Le site n'utilise pas de cookies de suivi. Les polices de caractères sont hébergées sur le site lui-même. La carte de la page Contact est fournie par OpenStreetMap, qui reçoit votre adresse IP lors de son affichage.
+
+---
+
+URL : https://rivesenreves.com/contact/
+
+Contact
+
+# Parlons de votre projet sur l'eau
+Dites-nous qui vous êtes et ce dont vous avez besoin : votre message arrive directement chez RivesEnRêves.
+
+## Coordonnées
+- E-mailcontact@rivesenreves.com
+- Téléphone06 07 88 57 78
+- Zone d'interventionBassin de la Seine : Seine amont, Seine aval, canaux parisiens et Marne. Canal de Bourgogne.
+- Siège et base d'activitéSiège : Poincy (77). Base d'activité : Fublaines (77), en bord de Marne.
+
+## Où nous trouver
+Agrandir la carte · © contributeurs OpenStreetMap
+
+---
+
+URL : https://rivesenreves.com/
+
+Entreprise fluviale · Bassin de la Seine · Canal de Bourgogne
+
+# Exploiter, conseiller et faire naviguer : la voie d'eau, notre métier
+RivesEnRêves fait vivre les rivières et les canaux : balades et nuits sur l'eau, services aux plaisanciers, solutions fluviales pour les entreprises et accompagnement des collectivités. Choisissez votre porte d'entrée.
+
+Particuliers
+
+## Je veux faire une balade
+Balades sur la Seine et la Marne à bord du Seine et Marne, location pour vos événements et nuits insolites en gîte nautique. Découvrir les balades
+
+Plaisanciers
+
+## J'ai un bateau
+Convoyage vers les chantiers avec toutes les démarches administratives, renflouement, découpe et recyclage des bateaux. Voir les services
+
+Entreprises, ports, chantiers
+
+## Je suis un professionnel
+Études de report modal vers le fluvial financées par VNF, conseil en logistique fluviale, interventions sur l'eau. Solutions professionnelles
+
+Collectivités, établissements publics
+
+## Je représente une administration
+Conseil en développement du tourisme fluvial, de l'idée à la mise en œuvre : faisabilité, bateau, haltes, exploitation. Notre accompagnement
+
+Une expérience de terrain
+
+## Des berges vides devenues des lieux de vie
+Notre expérience : 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine.
+
+4haltes fluviales exploitées sur la Marne
+2haltes à La Ferté-sous-Jouarre
+2019-2025années d'exploitation
+0équipement au départ : tout a été créé
+
+RivesEnRêves
+
+## Une entreprise fluviale, un fondateur de terrain
+RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
+Notre territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne.
+Joël Le Mercier a bâti et exploité des haltes fluviales sur la Marne, convoyé et sauvé des bateaux, conseillé VNF en logistique et accompagné une collectivité dans l'achat de son bateau. Cette expérience de terrain nourrit chacun de nos services.
+
+---
+
+URL : https://rivesenreves.com/mentions-legales/
+
+# Mentions légales
+Dernière mise à jour : 2026-11-04
+
+## Éditeur du site
+- Raison sociale : RivesEnRêves
+- Nom commercial : Rives en Rêves
+- Forme juridique : société par actions simplifiée à associé unique (SASU) au capital de 1 500 €
+- Siège social : 12 rue du Moulin, Cercle Nautique – Bateau Tx 44, 77470 Poincy, France
+- SIRET : 909 449 548 00025 · RCS Meaux 909 449 548
+- N° de TVA intracommunautaire : FR71909449548
+- E-mail : contact@rivesenreves.com · Téléphone : 06 07 88 57 78
+
+## Directeur de la publication
+Joël Le Mercier, président et fondateur de RivesEnRêves.
+
+## Hébergeur
+Le site est hébergé par GitHub Pages, service de GitHub, Inc.
+- Raison sociale : GitHub, Inc.
+- Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
+- Site : github.com · contact : support.github.com
+Le nom de domaine rivesenreves.com et la messagerie sont gérés par VICEM SAS (SIREN 924 990 849 RCS Nanterre), hébergeur français.
+
+## Propriété intellectuelle
+L'ensemble des contenus de ce site (textes, photographies, logos, éléments graphiques) est la propriété de RivesEnRêves ou de leurs auteurs respectifs. Toute reproduction sans autorisation préalable est interdite.
+Polices de caractères : Fraunces et Source Sans 3, sous licence SIL Open Font License. Carte : © contributeurs OpenStreetMap.
+
+## Données personnelles
+Le traitement des données transmises via le formulaire de contact est décrit dans la politique de confidentialité.
+
+## Responsabilité
+RivesEnRêves s'efforce d'assurer l'exactitude des informations publiées. Les informations de ce site sont données à titre indicatif et ne constituent pas un engagement contractuel ; les conditions de chaque prestation sont précisées dans le devis.
+
+---
+
+URL : https://rivesenreves.com/plaisanciers/convoyage-bateau/
+
+Plaisanciers
+
+# Convoyage de bateau vers les chantiers, démarches comprises
+
+RivesEnRêves organise le convoyage de votre bateau jusqu'au chantier de réparation ou d'entretien, et prend en charge toute la partie administrative. Vous nous confiez le bateau et ses papiers ; nous gérons les autorisations, la navigation et la remise au chantier.
+
+---
+
+URL : https://rivesenreves.com/plaisanciers/decoupe-bateau/
+
+Plaisanciers
+
+# Découpe et recyclage de bateau en fin de vie
+
+Votre bateau est en fin de vie ? RivesEnRêves le sort de l'eau, notre partenaire Paprec Environnement le découpe, et la coque est envoyée dans un centre de retraitement. Nous travaillons en collaboration avec l'APER, l'Association pour une plaisance éco-responsable, pour que chaque bateau soit recyclé dans les règles.
+
+---
+
+URL : https://rivesenreves.com/plaisanciers/
+
+Univers Plaisanciers
+
+# Services aux plaisanciers : convoyage, renflouement, découpe de bateaux
+
+Vous avez un bateau ? RivesEnRêves le convoie jusqu'au chantier en s'occupant de toute la partie administrative, le renfloue s'il a coulé et le découpe s'il est en fin de vie. Un seul interlocuteur, qui connaît la rivière.
+
+---
+
+URL : https://rivesenreves.com/plaisanciers/renflouement-bateau/
+
+Plaisanciers
+
+# Renflouement de bateau : remettre à flot ce qui a coulé
+
+RivesEnRêves a déjà renfloué un bateau à l'aide de ballons de flottaison. Si votre bateau a coulé ou s'enfonce, nous étudions la situation, organisons la remise à flot et la suite : convoyage vers un chantier ou déconstruction.
+
+---
+
+URL : https://rivesenreves.com/professionnels/etudes-report-modal-fluvial/
+
+Professionnels · Financé par VNF
+
+# Étude de report modal vers le fluvial, financée par VNF
+
+RivesEnRêves réalise des études qui permettent à une entreprise de basculer tout ou partie de ses transports de la route vers la voie d'eau. Ces études sont financées par VNF : elles ne coûtent rien ou presque à l'entreprise, qui obtient une réponse chiffrée et des scénarios concrets.
+
+---
+
+URL : https://rivesenreves.com/professionnels/
+
+Univers Professionnels
+
+# Services aux professionnels de la voie d'eau
+
+RivesEnRêves aide les entreprises à passer au transport fluvial grâce à des études de report modal financées par VNF, conseille en logistique fluviale (y compris VNF), et intervient sur l'eau avec son pousseur ERNA depuis sa base de Fublaines, en bord de Marne.
+
+---
+
+URL : https://rivesenreves.com/professionnels/interventions-techniques/
+
+Professionnels
+
+# Interventions techniques sur l'eau : renflouement et découpe de bateaux
+
+RivesEnRêves libère et sécurise les plans d'eau des ports, des sites et des chantiers : renflouement de bateaux à l'aide de ballons de flottaison, sortie de l'eau et évacuation d'épaves, découpe et recyclage avec nos partenaires Paprec Environnement et l'APER.
+
+---
+
+URL : https://rivesenreves.com/professionnels/logistique-fluviale/
+
+Professionnels
+
+# Conseil en logistique fluviale
+
+RivesEnRêves conseille les entreprises, les opérateurs et les gestionnaires dans l'organisation de leur logistique fluviale. Notre expertise a notamment été mobilisée lors d'une mission de conseil en logistique pour VNF.
+
+---
+
+URL : https://rivesenreves.com/professionnels/pousseur-erna/
+
+Professionnels
+
+# ERNA, notre pousseur
+
+ERNA est le pousseur de RivesEnRêves : il sert à déplacer des bateaux et du matériel sur les voies d'eau. Ports, chantiers et gestionnaires de sites font appel à lui pour les manœuvres qu'un bateau ne peut pas faire seul.
+
+---
+
+URL : https://rivesenreves.com/references/
+
+Références
+
+# Nos références et réalisations
+
+RivesEnRêves a exploité 4 haltes fluviales sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, accompagné la Communauté de communes de Pouilly-Bligny dans l'achat d'un bateau, mené une mission de conseil en logistique fluviale pour VNF, occupe le site de Fublaines dans le cadre d'une sous-occupation de la convention de Valfrance et a réalisé des renflouements et des découpes de bateaux.
+
+BaladesPlaisanciersAdministrations
+
+## Haltes fluviales sur la Marne
+4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine. Aménagement, accueil des plaisanciers, animation des berges. Notre histoire
+
+Administrations
+
+## Communauté de communes de Pouilly-Bligny : La Billebaude
+Bateau à passagers trouvé aux Pays-Bas et acheminé jusqu'à Pouilly-en-Auxois, pour des balades fluviales sur le Canal de Bourgogne. L'étude de cas
+
+Professionnels
+
+## VNF
+Mission de conseil en logistique fluviale pour VNF, et études de report modal vers le fluvial financées par VNF. Les études financées par VNF
+Vue aérienne : © Google
+
+Professionnels
+
+## Site de Fublaines, en bord de Marne
+Site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance : la base d'activité de RivesEnRêves. Le site de Fublaines
+Image d'illustration
+
+PlaisanciersProfessionnels
+
+## Renflouement aux ballons de flottaison
+Un bateau coulé remis à flot à l'aide de ballons de flottaison, à La Ferté-sous-Jouarre, en juin 2026. Le renflouement
+
+PlaisanciersProfessionnels
+
+## Découpe et recyclage de bateaux
+Sortie de l'eau des bateaux en fin de vie par RivesEnRêves, découpe par notre partenaire Paprec Environnement, coques envoyées en centre de retraitement, en collaboration avec l'APER. Exemple : sortie de l'eau d'une épave à Neuilly-sur-Marne, en mars 2025. La découpe
+
+## Nos partenaires
+
+Coulommiers Pays de Brie Tourisme
+Collaboration pour l'exploitation de 4 haltes fluviales sur la Marne, de 2019 à 2025.
+APER
+Association pour une plaisance éco-responsable : collaboration pour le recyclage des bateaux en fin de vie.
+Paprec Environnement
+Partenaire pour la découpe des bateaux que nous sortons de l'eau.
+
+## Parlons de votre projet
+Balade, bateau à convoyer, étude de report modal ou projet de territoire : écrivez-nous.
