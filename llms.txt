@@ -43,6 +43,11 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - [Conseil en tourisme fluvial](https://rivesenreves.com/administrations/conseil-tourisme-fluvial/)
 - [Références collectivités](https://rivesenreves.com/administrations/references/)
 
+## Pour aller plus loin
+
+- [Contenu complet du site en texte](https://rivesenreves.com/llms-full.txt)
+- [Questions fréquentes (toutes les réponses)](https://rivesenreves.com/questions-frequentes/)
+
 ## Entreprise
 
 - [À propos et Joël Le Mercier](https://rivesenreves.com/a-propos/)
