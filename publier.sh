@@ -4,6 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 MSG="${1:-Mise à jour du site}"
+KEY="$(python3 -c 'import json;print(json.load(open("config.json")).get("indexnow_key",""))' 2>/dev/null || true)"
 SITE="$(mktemp -d)"; GHP="$(mktemp -d)"
 trap 'git worktree remove --force "$GHP" 2>/dev/null || true; rm -rf "$SITE"' EXIT
 python3 build.py
@@ -24,7 +25,6 @@ git push -q origin HEAD:gh-pages
 echo "Publié sur https://rivesenreves.com"
 
 # IndexNow : signale les pages à Bing (et donc Copilot, ChatGPT…), Yandex, Seznam, Naver
-KEY="$(python3 -c 'import json;print(json.load(open("config.json")).get("indexnow_key",""))' 2>/dev/null || true)"
 if [ -n "$KEY" ]; then
   URLS="$(grep -o '<loc>[^<]*' "$SITE/out/sitemap.xml" | sed 's/<loc>//' | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')"
   curl -s -o /dev/null -w "IndexNow : réponse %{http_code}\n" -X POST "https://api.indexnow.org/indexnow" \
