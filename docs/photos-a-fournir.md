@@ -12,7 +12,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `convoyage-papiers.webp` | 1000 × 750 | Préparation : carte des voies navigables, documents, à bord | /plaisanciers/convoyage-bateau/ |
 | `decoupe-carte.webp` | 800 × 500 | Bateau en fin de vie sorti de l'eau (grutage, slip ou remorquage vers la berge) | /plaisanciers/ |
 | `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
-| `galerie-balade-1.webp` | 800 × 600 | Galerie : passage d'écluse | /balades-bateau/ |
 | `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Épave sortie de l'eau sur berge ou sur ponton | /professionnels/interventions-techniques/ |
@@ -24,7 +23,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `ref-decoupe.webp` | 1000 × 560 | Bateau en fin de vie sorti de l'eau, ou camion Paprec emportant la coque | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
 | `ref-renflouement.webp` | 1000 × 560 | Référence : renflouement aux ballons | /references/ |
-| `ref-vnf.webp` | 1000 × 560 | Référence VNF : écluse ou voie navigable (photo libre de droits) | /references/ |
 | `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
 | `renflouement-avant.webp` | 1000 × 750 | AVANT : le bateau coulé | /plaisanciers/renflouement-bateau/ |
 | `renflouement-carte.webp` | 800 × 500 | Renflouement : ballons de flottaison autour d'un bateau | /plaisanciers/ |
