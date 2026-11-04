@@ -13,17 +13,13 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Épave sortie de l'eau sur berge ou sur ponton | /professionnels/interventions-techniques/ |
-| `interventions-renflouement.webp` | 1000 × 600 | Renflouement : ballons fixés à la coque | /professionnels/interventions-techniques/ |
 | `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
 | `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
 | `plaisanciers-hero.webp` | 1200 × 800 | Bateau de plaisance naviguant, convoyage vers un chantier | /plaisanciers/ |
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `ref-decoupe.webp` | 1000 × 560 | Bateau en fin de vie sorti de l'eau, ou camion Paprec emportant la coque | /references/ |
 | `ref-fublaines.webp` | 1000 × 560 | Référence : site de Fublaines | /references/ |
-| `ref-renflouement.webp` | 1000 × 560 | Référence : renflouement aux ballons | /references/ |
 | `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
 | `renflouement-avant.webp` | 1000 × 750 | AVANT : le bateau coulé | /plaisanciers/renflouement-bateau/ |
-| `renflouement-carte.webp` | 800 × 500 | Renflouement : ballons de flottaison autour d'un bateau | /plaisanciers/ |
-| `renflouement-hero.webp` | 1200 × 800 | Renflouement en cours : ballons de flottaison autour de la coque | /plaisanciers/renflouement-bateau/ |
 | `report-modal-hero.webp` | 1200 × 800 | Barge ou automoteur chargé de matériaux / conteneurs | /professionnels/etudes-report-modal-fluvial/ |
 | `site-fublaines.webp` | 1000 × 750 | Le site de Fublaines en bord de Marne (vue large, avec ERNA si possible) | /professionnels/ |
