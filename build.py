@@ -82,7 +82,7 @@ FAITS = {
     "vnf-conseil": "mission de conseil en logistique fluviale pour VNF",
     "vnf-etudes": "études de report modal vers le fluvial financées par VNF",
     "fublaines": "site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance",
-    "renflouement": "renflouement d'un bateau à l'aide de ballons de flottaison",
+    "renflouement": "renflouement d'un bateau à l'aide de ballons de flottaison à La Ferté-sous-Jouarre, en juin 2026",
     "decoupe": "sortie de l'eau de bateaux en fin de vie par RivesEnRêves, découpe par son partenaire Paprec Environnement et envoi des coques en centre de retraitement, en collaboration avec l'APER (Association pour une plaisance éco-responsable)",
 }
 
