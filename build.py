@@ -545,6 +545,12 @@ def jsonld(page, cfg, ariane):
             "itemListElement": [{"@type": "Offer", "itemOffered": {
                 "@type": "Service", "name": s["name"], "description": s["description"],
                 "url": base + p["url"]}} for p, s in SERVICES_TOUS]}
+        org["subjectOf"] = [{"@type": "NewsArticle",
+            "headline": "Transport fluvial de passagers : RivesEnReves convertit sa flotte au bioGNV",
+            "url": "https://www.gaz-mobilite.fr/actus/transport-fluvial-passagers-rivesenreves-convertit-flotte-biognv-3827.html",
+            "datePublished": "2024-03-06", "author": {"@type": "Person", "name": "Adeline Adelski"},
+            "publisher": {"@type": "Organization", "name": "Gaz-Mobilité"}}]
+        org["award"] = "Lauréat de l'appel à projets GRDF pour la décarbonation du transport fluvial et maritime côtier (2024)"
         org["slogan"] = "Exploiter, conseiller et faire naviguer : la voie d'eau, notre métier"
         org["email"] = org.get("email") or None
         org = {k: v for k, v in org.items() if v is not None}
