@@ -599,3 +599,7 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 @media (min-width: 900px) { .video-split { grid-template-columns: 1fr 360px; } }
 .video-frame { margin: 0 auto; width: 100%; max-width: 360px; }
 .video-frame video { display: block; width: 100%; height: auto; aspect-ratio: 480 / 864; border-radius: var(--radius-lg); box-shadow: var(--shadow-hover); background: var(--navy); object-fit: cover; }
+
+/* Mention « Image d'illustration » sur les photos qui ne montrent pas une opération de RivesEnRêves */
+.illus-wrap { position: relative; }
+.illus-badge { position: absolute; left: .6rem; bottom: .6rem; background: rgba(11,68,103,.82); color: #fff; font-size: .75rem; font-weight: 600; padding: .2rem .55rem; border-radius: 999px; pointer-events: none; }
