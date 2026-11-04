@@ -7,8 +7,4 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 
 | Fichier attendu | Format conseillé (px) | Contenu suggéré | Pages |
 |---|---|---|---|
-| `conseil-tourisme-hero.webp` | 1200 × 800 | Visite de terrain sur une berge avec des élus / techniciens | /administrations/conseil-tourisme-fluvial/ |
-| `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
-| `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
-| `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
-| `renflouement-avant.webp` | 1000 × 750 | AVANT : le bateau coulé | /plaisanciers/renflouement-bateau/ |
+| – | – | Toutes les photos sont en place. | – |
