@@ -14,4 +14,3 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
 | `renflouement-avant.webp` | 1000 × 750 | AVANT : le bateau coulé | /plaisanciers/renflouement-bateau/ |
-| `report-modal-hero.webp` | 1200 × 800 | Barge ou automoteur chargé de matériaux / conteneurs | /professionnels/etudes-report-modal-fluvial/ |

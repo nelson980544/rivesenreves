@@ -603,3 +603,6 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 /* Mention « Image d'illustration » sur les photos qui ne montrent pas une opération de RivesEnRêves */
 .illus-wrap { position: relative; }
 .illus-badge { position: absolute; left: .6rem; bottom: .6rem; background: rgba(11,68,103,.82); color: #fff; font-size: .75rem; font-weight: 600; padding: .2rem .55rem; border-radius: 999px; pointer-events: none; }
+
+/* Vidéo à la place de la photo en haut de page (cadrage horizontal) */
+.page-hero .hero-video video { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: center 55%; border-radius: var(--radius-lg); box-shadow: var(--shadow-hover); background: var(--navy); }
