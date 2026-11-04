@@ -10,3 +10,4 @@ __pycache__/
 *.local.json
 
 # Le dossier public/ EST versionné : il contient le site prêt à déposer chez VICEM.
+rivesenreves-site.zip
