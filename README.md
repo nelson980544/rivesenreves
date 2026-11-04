@@ -223,19 +223,30 @@ Le `.htaccess` gère aussi la **page 404 personnalisée**, la **compression** et
 2. **Bing Webmaster Tools** ([bing.com/webmasters](https://www.bing.com/webmasters)) : importez directement le site depuis Search Console, puis soumettez `sitemap.xml`. Bing alimente aussi Copilot et une partie des réponses de ChatGPT.
 3. Contrôlez les données structurées avec le [test des résultats enrichis](https://search.google.com/test/rich-results) et le [validateur Schema.org](https://validator.schema.org).
 
-## Aperçu de démonstration sur GitHub Pages
+## Hébergement actuel : GitHub Pages sur rivesenreves.com
 
-Une version de démonstration est publiée sur **<https://nelson980544.github.io/rivesenreves/>**, depuis la branche `gh-pages`. Elle affiche un bandeau « Aperçu » et n'est jamais indexée par les moteurs (`noindex`, `robots.txt` bloquant) : elle ne concurrence pas le futur `rivesenreves.com`.
+Le site est publié par **GitHub Pages** depuis la branche `gh-pages`, sur le domaine **rivesenreves.com** (fichier `CNAME`). Le nom de domaine et la messagerie restent chez VICEM. Côté DNS (VICEM) :
 
-Pour la mettre à jour après des modifications :
+| Nom | Type | Valeur |
+|---|---|---|
+| `rivesenreves.com` | A | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (4 lignes) |
+| `www.rivesenreves.com` | CNAME | `nelson980544.github.io` |
+| MX, SPF, DKIM | | inchangés (messagerie VICEM) |
+
+Dans GitHub, **Settings > Pages** : domaine `rivesenreves.com`, case **Enforce HTTPS** cochée.
+
+Pour publier une mise à jour :
 
 ```bash
-RER_SORTIE=/tmp/apercu RER_APERCU=1 RER_BASE=/rivesenreves/ python3 build.py
+python3 build.py
+RER_SORTIE=/tmp/site python3 build.py
+rm -f /tmp/site/.htaccess && echo "rivesenreves.com" > /tmp/site/CNAME && touch /tmp/site/.nojekyll
 git worktree add /tmp/ghp gh-pages
-rm -rf /tmp/ghp/* && cp -a /tmp/apercu/. /tmp/ghp/
-cd /tmp/ghp && git add -A && git commit -m "Mise à jour de l'aperçu" && git push
+cd /tmp/ghp && git rm -rq . && cp -a /tmp/site/. . && git add -A && git commit -m "Mise à jour du site" && git push
 cd - && git worktree remove /tmp/ghp
 ```
+
+Le fichier `.htaccess` et le workflow `deploy.yml` (envoi FTP vers VICEM) restent disponibles pour revenir un jour sur l'hébergement VICEM.
 
 ## 5. Référencement après la mise en ligne
 
