@@ -11,7 +11,6 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `convoyage-carte.webp` | 800 × 500 | Convoyage : bateau arrivant au chantier | /plaisanciers/ |
 | `decoupe-carte.webp` | 800 × 500 | Bateau en fin de vie sorti de l'eau (grutage, slip ou remorquage vers la berge) | /plaisanciers/ |
 | `decoupe-hero.webp` | 1200 × 800 | Bateau sorti de l'eau, avant découpe | /plaisanciers/decoupe-bateau/ |
-| `galerie-balade-2.webp` | 800 × 600 | Galerie : faune et berges de la Marne | /balades-bateau/ |
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
 | `interventions-decoupe.webp` | 1000 × 600 | Épave sortie de l'eau sur berge ou sur ponton | /professionnels/interventions-techniques/ |
 | `interventions-renflouement.webp` | 1000 × 600 | Renflouement : ballons fixés à la coque | /professionnels/interventions-techniques/ |
