@@ -11,6 +11,5 @@ encore une image provisoire « PHOTO À REMPLACER ». Déposez la photo dans
 | `galerie-balade-3.webp` | 800 × 600 | Galerie : coucher de soleil depuis le pont | /balades-bateau/ |
 | `logistique-hero.webp` | 1200 × 800 | Port fluvial, quai de chargement, grue ou conteneurs | /professionnels/logistique-fluviale/ |
 | `logistique-reunion.webp` | 1000 × 750 | Travail de conseil : carte des voies navigables, réunion de terrain | /professionnels/logistique-fluviale/ |
-| `porte-plaisanciers.webp` | 800 × 600 | Porte Plaisanciers : bateau de plaisance naviguant vers un chantier | / |
 | `renflouement-apres.webp` | 1000 × 750 | APRÈS : le bateau remis à flot | /plaisanciers/renflouement-bateau/ |
 | `renflouement-avant.webp` | 1000 × 750 | AVANT : le bateau coulé | /plaisanciers/renflouement-bateau/ |
