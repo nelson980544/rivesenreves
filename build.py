@@ -81,7 +81,7 @@ FAITS = {
     "billebaude": "La Billebaude, bateau à passagers trouvé aux Pays-Bas par RivesEnRêves et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny, qui l'exploite pour des balades fluviales sur le Canal de Bourgogne",
     "vnf-conseil": "mission de conseil en logistique fluviale pour VNF",
     "vnf-etudes": "études de report modal vers le fluvial financées par VNF",
-    "offices": "balades en bateau proposées en collaboration avec les offices de tourisme de Château-Thierry, de Coulommiers Pays de Brie Tourisme et de Marne et Gondoire (Lagny-sur-Marne), qui ont rencontré un grand succès",
+    "offices": "balades en bateau à bord du Béati, bateau de RivesEnRêves, proposées en collaboration avec les offices de tourisme de Château-Thierry, de Coulommiers Pays de Brie Tourisme et de Marne et Gondoire (Lagny-sur-Marne), qui ont rencontré un grand succès",
     "fublaines": "site de Fublaines (Seine-et-Marne), en bord de Marne, occupé dans le cadre d'une sous-occupation de la convention de Valfrance",
     "renflouement": "renflouement d'un bateau à l'aide de ballons de flottaison à La Ferté-sous-Jouarre, en juin 2026",
     "decoupe": "sortie de l'eau de bateaux en fin de vie par RivesEnRêves, découpe par son partenaire Paprec Environnement et envoi des coques en centre de retraitement, en collaboration avec l'APER (Association pour une plaisance éco-responsable)",
