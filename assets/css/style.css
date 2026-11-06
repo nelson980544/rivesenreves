@@ -606,3 +606,9 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 
 /* Vidéo à la place de la photo en haut de page (cadrage horizontal) */
 .page-hero .hero-video video { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: center 55%; border-radius: var(--radius-lg); box-shadow: var(--shadow-hover); background: var(--navy); }
+
+/* Avis clients */
+.testimonial.review { margin: 0; border-style: solid; border-color: var(--line); background: #fff; color: var(--ink); box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.testimonial.review blockquote { margin: 0 0 .8rem; }
+.testimonial.review blockquote p { font-style: italic; margin: 0; }
+.testimonial.review figcaption { margin-top: auto; font-size: .88rem; color: var(--muted); }
