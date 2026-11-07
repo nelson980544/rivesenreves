@@ -13,7 +13,7 @@ URL : https://rivesenreves.com/a-propos/
 # RivesEnRêves, bâtisseur de vie au bord de l'eau
 
 RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
-Son territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne.
+Son territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et les canaux du Centre (Loing, Briare, latéral à la Loire, Centre et Bourgogne).
 
 ## Notre histoire : des berges vides aux haltes vivantes
 L'aventure commence en 2010, quand Joël Le Mercier lance le concept RivesEnRêves : des balades sur mesure et des gîtes nautiques. D'abord exercée en auto-entreprise, l'activité est transférée le 1er juin 2021 à la société RivesEnRêves (SASU), immatriculée en janvier 2022.
@@ -34,7 +34,7 @@ Sur l'ensemble des haltes, ce sont 40 bateaux amarrés à l'année et une centai
 
 Repère | Ce que nous avons fait
 Depuis 2010 | Concept RivesEnRêves : balades sur mesure et gîtes nautiques ; auto-entreprise, puis société (SASU) depuis 2021.
-Territoire | Bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et Canal de Bourgogne.
+Territoire | Bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et Les canaux du Centre (Loing, Briare, latéral à la Loire, Centre et Bourgogne).
 Marne, 2019-2025 | 4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre, créées sur des sites où il n'y avait rien à l'origine : La Ferté-sous-Jouarre (2 haltes), Saint-Jean-les-Deux-Jumeaux et Nanteuil-sur-Marne.
 Canal de Bourgogne | La Billebaude : bateau à passagers trouvé aux Pays-Bas et acheminé jusqu'à Pouilly-en-Auxois pour la Communauté de communes de Pouilly-Bligny.
 VNF | Mission de conseil en logistique fluviale ; études de report modal vers le fluvial financées par VNF.
@@ -453,7 +453,7 @@ Dites-nous qui vous êtes et ce dont vous avez besoin : votre message arrive dir
 ## Coordonnées
 - E-mailcontact@rivesenreves.com
 - Téléphone06 07 88 57 78
-- Zone d'interventionBassin de la Seine : Seine amont, Seine aval, canaux parisiens et Marne. Canal de Bourgogne.
+- Zone d'interventionBassin de la Seine : Seine amont, Seine aval, canaux parisiens et Marne. Canaux du Centre : Loing, Briare, latéral à la Loire, Centre et Bourgogne.
 - Siège et base d'activitéSiège : Poincy (77). Base d'activité : Fublaines (77), en bord de Marne.
 
 ## Où nous trouver
@@ -463,7 +463,7 @@ Agrandir la carte · © contributeurs OpenStreetMap
 
 URL : https://rivesenreves.com/
 
-Entreprise fluviale · Bassin de la Seine · Canal de Bourgogne
+Entreprise fluviale · Bassin de la Seine · Canaux du Centre
 
 # Exploiter, conseiller et faire naviguer : la voie d'eau, notre métier
 RivesEnRêves fait vivre les rivières et les canaux : balades et nuits sur l'eau, services aux plaisanciers, solutions fluviales pour les entreprises et accompagnement des collectivités. Choisissez votre porte d'entrée.
@@ -502,7 +502,7 @@ RivesEnRêves
 
 ## Une entreprise fluviale, un fondateur de terrain
 RivesEnRêves est une entreprise fluviale fondée par Joël Le Mercier, qui propose des balades en bateau, des services aux plaisanciers, des études de report modal vers le fluvial financées par VNF et des services aux professionnels, et du conseil en développement du tourisme fluvial aux administrations.
-Notre territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne.
+Notre territoire : le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et les canaux du Centre (Loing, Briare, latéral à la Loire, Centre et Bourgogne).
 Joël Le Mercier a bâti et exploité des haltes fluviales sur la Marne, convoyé et sauvé des bateaux, conseillé VNF en logistique et accompagné une collectivité dans l'achat de son bateau. Cette expérience de terrain nourrit chacun de nos services.
 
 ---
