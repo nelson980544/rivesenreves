@@ -32,7 +32,7 @@ Jetons utilisables dans le contenu :
     {{article-meta}}            auteur + dates de publication / mise à jour
     {{fait:cle}}                affirmation vérifiable identique sur tout le site
     {{definition}}              phrase de définition de l'entreprise
-    {{zone}}                    territoire d'intervention (bassin de la Seine + Canal de Bourgogne)
+    {{zone}}                    territoire d'intervention (bassin de la Seine + canaux du Centre)
     {{email}} {{telephone}} {{telephone_international}}
 """
 
@@ -69,10 +69,10 @@ DEFINITION = (
 )
 
 # Territoire d'intervention : formulation unique, reprise partout (jeton {{zone}}).
-ZONE = "le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et le Canal de Bourgogne"
-ZONE_COURTE = "Bassin de la Seine et Canal de Bourgogne"
+ZONE = "le bassin de la Seine (Seine amont, Seine aval, canaux parisiens, Marne) et les canaux du Centre (Loing, Briare, latéral à la Loire, Centre et Bourgogne)"
+ZONE_COURTE = "Bassin de la Seine et canaux du Centre"
 ZONE_LIEUX = ["Bassin de la Seine", "Seine amont", "Seine aval", "Canaux parisiens", "Marne",
-              "Canal de Bourgogne"]
+              "Canaux du Centre", "Canal du Loing", "Canal de Briare", "Canal latéral à la Loire", "Canal du Centre", "Canal de Bourgogne"]
 
 FAITS = {
     "haltes": "4 haltes fluviales exploitées sur la Marne de 2019 à 2025 en collaboration avec Coulommiers Pays de Brie Tourisme, dont 2 à La Ferté-sous-Jouarre",
@@ -506,7 +506,7 @@ def jsonld(page, cfg, ariane):
             "tourisme fluvial", "haltes fluviales", "balade en bateau", "gîte nautique",
             "convoyage de bateau", "renflouement de bateau", "découpe de bateau", "recyclage de bateau de plaisance",
             "report modal fluvial", "transport fluvial de marchandises", "logistique fluviale",
-            "Seine", "Marne", "canaux parisiens", "Canal de Bourgogne", "VNF",
+            "Seine", "Marne", "canaux parisiens", "canaux du Centre", "Canal de Bourgogne", "VNF",
         ],
     }
     if not est_marqueur(cfg.get("email_contact")):
