@@ -672,6 +672,10 @@ def rendre_corps(page, pages, cfg):
     if page["meta"].get("type") == "article":
         c = c.replace("{{article-meta}}", bloc_article_meta(page))
     c = c.replace("{{root}}", page["root"])
+    # Chaque bandeau d'appel à l'action propose aussi d'appeler
+    c = re.sub(r'(<div class="cta-band[^"]*">.*?<div class="btn-row">.*?)(</div>)',
+               lambda m: m.group(1) + ('<a class="btn btn-ghost-light btn-tel" href="tel:[TELEPHONE_INTERNATIONAL]">'
+                                      'Appeler le [TELEPHONE]</a>') + m.group(2), c, flags=re.S)
     return c
 
 
@@ -775,6 +779,13 @@ def construire():
             "root": page["root"],
             "annee": cfg.get("date_mise_a_jour_site", "2026")[:4],
             "logo": rendre_logo(page),
+            "barre_action": "" if page["url"].startswith("contact") or page["url"] == "404.html" else (
+                '<div class="action-bar" role="complementary" aria-label="Nous contacter">'
+                '<a class="action-tel" href="tel:[TELEPHONE_INTERNATIONAL]">Appeler</a>'
+                '<a class="action-mail" href="%scontact/%s">%s</a></div>' % (
+                    page["root"], ("?profil=" + UNIVERS[page["meta"]["univers"]]["profil"]) if page["meta"].get("univers") in UNIVERS else "",
+                    {"balades": "Réserver", "plaisanciers": "Demander un devis", "professionnels": "Parler de votre projet",
+                     "administrations": "Échanger sur votre projet"}.get(page["meta"].get("univers"), "Nous écrire"))),
             "bandeau": ('<div class="apercu-bandeau" role="note">Aperçu de démonstration du futur site '
                         '<strong>rivesenreves.com</strong> · contenus et photos en cours de finalisation</div>'
                         if APERCU else ""),
