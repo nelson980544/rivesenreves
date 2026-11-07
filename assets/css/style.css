@@ -612,3 +612,21 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 .testimonial.review blockquote { margin: 0 0 .8rem; }
 .testimonial.review blockquote p { font-style: italic; margin: 0; }
 .testimonial.review figcaption { margin-top: auto; font-size: .88rem; color: var(--muted); }
+
+/* Appels à l'action : raccourcis par profil */
+.cta-choices { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; position: relative; }
+.cta-choices a { color: #fff; font-size: .9rem; font-weight: 600; text-decoration: none; padding: .35rem .8rem; border: 1px solid rgba(255,255,255,.45); border-radius: 999px; }
+.cta-choices a:hover { background: rgba(255,255,255,.14); }
+.cta-band .btn-row { position: relative; }
+
+/* Barre d'action fixe sur mobile : appeler / écrire */
+.action-bar { display: none; }
+@media (max-width: 760px) {
+  .action-bar { display: grid; grid-template-columns: 1fr 1.6fr; gap: .5rem; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+    padding: .55rem .75rem calc(.55rem + env(safe-area-inset-bottom)); background: rgba(255,255,255,.97); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(11,68,103,.12); }
+  .action-bar a { display: flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: .98rem; }
+  .action-tel { border: 2px solid var(--accent); color: var(--accent-dark); }
+  .action-mail { background: var(--accent); color: #fff; }
+  body { padding-bottom: 72px; }
+}
+@media print { .action-bar { display: none !important; } }
