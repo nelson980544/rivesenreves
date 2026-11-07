@@ -432,7 +432,8 @@ def rendre_sous_nav(page, pages):
     if not u or page["meta"].get("type") == "article":
         return ""
     base = UNIVERS[u]["url"]
-    enfants = [p for p in pages if p["url"].startswith(base) and p["url"] != base]
+    enfants = [p for p in pages if p["url"].startswith(base) and p["url"] != base
+               and p["url"].count("/") == base.count("/") + 1]
     enfants.sort(key=lambda p: p["meta"].get("ordre", 50))
     liens = '<a href="%s%s"%s>Vue d\'ensemble</a>' % (
         page["root"], base, ' aria-current="page"' if page["url"] == base else "")
@@ -632,6 +633,27 @@ def jsonld(page, cfg, ariane):
 # Assemblage d'une page
 # ---------------------------------------------------------------------------
 TOKEN_IMG = re.compile(r"\{\{img\s+(.*?)\}\}", re.S)
+def bloc_bateaux(pages, page):
+    """Cartes des bateaux accompagnés (pages de type « bateau »)."""
+    bateaux = sorted([p for p in pages if p["meta"].get("type") == "bateau"],
+                     key=lambda p: p["meta"].get("ordre", 50))
+    if not bateaux:
+        return ('<div class="card"><h3>Notre sélection du moment</h3><p>Notre sélection évolue '
+                'régulièrement. <a href="%scontact/?profil=plaisancier&amp;objet=achat">Contactez-nous</a> : '
+                'nous vous présentons les bateaux que nous accompagnons en ce moment et qui correspondent '
+                'à votre projet.</p></div>' % page["root"])
+    cartes = ""
+    for b in bateaux:
+        m = b["meta"]; f = m.get("fiche", {})
+        infos = " · ".join(v for v in (f.get("type"), f.get("longueur"), f.get("annee"), f.get("lieu")) if v)
+        img = rendre_img({"name": m.get("photo", ""), "alt": m.get("photo_alt", m["label"]),
+                          "w": "800", "h": "500"}, page) if m.get("photo") else ""
+        cartes += ('<a class="card reveal" href="%s%s"><div class="card-media">%s</div><h3>%s</h3>'
+                   '<p>%s</p><span class="link-arrow">Voir la fiche</span></a>'
+                   % (page["root"], b["url"], img, html.escape(m["label"]), html.escape(infos)))
+    return '<div class="grid grid-3">%s</div>' % cartes
+
+
 TOKEN_ART = re.compile(r"\{\{articles(?:\s+univers=\"(\w+)\")?\}\}")
 TOKEN_FAIT = re.compile(r"\{\{fait:([\w-]+)\}\}")
 
@@ -640,6 +662,7 @@ def rendre_corps(page, pages, cfg):
     c = page["corps"]
     c = TOKEN_IMG.sub(lambda m: rendre_img(parse_attrs(m.group(1)), page), c)
     c = TOKEN_ART.sub(lambda m: bloc_articles(pages, page, m.group(1)), c)
+    c = c.replace("{{bateaux}}", bloc_bateaux(pages, page))
     c = TOKEN_FAIT.sub(lambda m: FAITS[m.group(1)], c)
     c = c.replace("{{faq-toutes}}", bloc_faq_toutes(page, pages))
     c = c.replace("{{faq}}", bloc_faq(page["meta"]))

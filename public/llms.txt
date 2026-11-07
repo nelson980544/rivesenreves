@@ -22,6 +22,7 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - Seine et Marne : ancien remorqueur à vapeur construit en 1902 (32 m × 5,85 m) ; projet de propulsion électrique avec générateur au biogaz, retenu par GRDF dans son appel à projets pour la décarbonation du transport fluvial et maritime côtier (source : Gaz-Mobilité, 6 mars 2024, https://www.gaz-mobilite.fr/actus/transport-fluvial-passagers-rivesenreves-convertit-flotte-biognv-3827.html).
 - Presse : portrait de Joël Le Mercier dans Le Parisien (Seine-et-Marne), 28 septembre 2020 : « Seine-et-Marne : marin d'eau douce né, Joël Le Mercier révèle les secrets des cours d'eau » (https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-marin-d-eau-douce-ne-joel-le-mercier-revele-les-secrets-des-cours-d-eau-28-09-2020-8393304.php).
 - Avis clients : 13 avis publiés sur Samboat de 2016 à 2024 (https://www.samboat.fr/profil/joel_ec33f439-5d16-42e0-a2d4-862a71039c7b), par exemple : « Balade fluviale au départ de Lagny : expérience superbe ! […] Absolument à refaire ! » (Vincenzo, août 2020) ; « Joël est passionné et fait partager sa passion par beaucoup d'explications, d'anecdotes, sur les bateaux, les écluses, la navigation » (Christèle, décembre 2018).
+- Accompagnement à l'achat de bateau : RivesEnRêves accompagne les futurs acquéreurs grâce à son expertise technique et nautique, en toute neutralité (choix, visite technique, essai, démarches, convoyage), et présente les bateaux qu'elle accompagne.
 - Le Cormoran : ancien bateau-bus de 12 places exploité par RivesEnRêves pour des balades en bateau en petit comité.
 - Noix de Coco : bateau de plaisance exploité par RivesEnRêves en gîte nautique (salon, carré abrité, pont avant) : jusqu'à 12 personnes, chauffage, cuisine, sanitaires et douche, linge fourni, ouvert toute l'année ; amarrage, horaires et tarifs sur demande.
 - ERNA : pousseur de RivesEnRêves, utilisé pour déplacer des bateaux et du matériel sur les voies d'eau.
@@ -39,6 +40,7 @@ Base d'activité : site de Fublaines (Seine-et-Marne), en bord de Marne, occupé
 - [Gîte nautique](https://rivesenreves.com/balades-bateau/gite-nautique/)
 - [Convoyage de bateau vers les chantiers](https://rivesenreves.com/plaisanciers/convoyage-bateau/)
 - [Renflouement de bateau](https://rivesenreves.com/plaisanciers/renflouement-bateau/)
+- [Accompagnement à l'achat d'un bateau](https://rivesenreves.com/plaisanciers/accompagnement-achat-bateau/)
 - [Découpe et recyclage de bateau](https://rivesenreves.com/plaisanciers/decoupe-bateau/)
 - [Études de report modal financées par VNF](https://rivesenreves.com/professionnels/etudes-report-modal-fluvial/)
 - [Conseil en logistique fluviale](https://rivesenreves.com/professionnels/logistique-fluviale/)

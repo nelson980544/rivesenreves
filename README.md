@@ -114,6 +114,10 @@ Les couleurs reprennent celles du logo : vert anis `#90c03c`, bleu `#0093d3`, bl
 
 Le logo affiché est `src/static/assets/img/logo-officiel.webp` (en-tête, pied de page, données structurées). Pour le remplacer par une version haute définition, déposez `logo-officiel.svg` au même endroit (prioritaire sur le .webp), puis lancez `python3 build.py`. Remplacez aussi `favicon.svg` et `apple-touch-icon.png` par l'emblème seul.
 
+### 2.4 bis Ajouter un bateau accompagné (accompagnement à l'achat)
+
+Copiez `docs/modele-fiche-bateau.html` dans `src/pages/plaisanciers/accompagnement-achat-bateau/<nom-du-bateau>/index.html`, remplissez-le, ajoutez les photos dans `src/static/assets/img/photos/`, puis `./publier.sh`. Le bateau apparaît automatiquement dans la liste « Les bateaux que nous accompagnons ». Pour le retirer, supprimez son dossier et republiez.
+
 ### 2.5 Ajouter un article de blog
 
 Copiez un dossier de `src/pages/blog/` (ex. `etude-report-modal-financee-vnf/`), renommez-le (adresse courte, sans accents), puis adaptez les métadonnées (`h1`, `univers`, `article.datePublished`, `article.dateModified`, `faq`) et le contenu. L'article apparaît automatiquement sur la page Blog, dans l'univers correspondant et dans le sitemap. **Mettez à jour `dateModified`** à chaque modification : la date est affichée sur l'article.

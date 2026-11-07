@@ -1,0 +1,84 @@
+<!--
+  MODÈLE DE FICHE BATEAU — à copier pour chaque bateau accompagné.
+
+  1. Copier ce fichier dans : src/pages/plaisanciers/accompagnement-achat-bateau/<nom-du-bateau>/index.html
+     (nom en minuscules, sans accents ni espaces, ex. noix-de-coco)
+  2. Remplir les métadonnées ci-dessous et le texte.
+  3. Déposer les photos dans src/static/assets/img/photos/ (ex. bateau-noix-de-coco-1.webp …)
+  4. Lancer ./publier.sh "Nouvelle fiche bateau"
+  La fiche apparaît automatiquement dans « Les bateaux que nous accompagnons ».
+  Pour retirer un bateau : supprimer son dossier, puis publier.
+-->
+<!--
+{
+  "title": "NOM DU BATEAU, TYPE DE BATEAU – Accompagnement à l'achat – RivesEnRêves",
+  "description": "NOM DU BATEAU, TYPE (LONGUEUR, ANNÉE) : présentation et avis technique de RivesEnRêves. Visite et essai sur demande.",
+  "label": "NOM DU BATEAU",
+  "univers": "plaisanciers",
+  "type": "bateau",
+  "ordre": 1,
+  "photo": "bateau-nom-1",
+  "photo_alt": "NOM DU BATEAU amarré à quai",
+  "fiche": {"type": "Vedette fluviale", "longueur": "10,50 m", "annee": "1998", "lieu": "Seine-et-Marne"}
+}
+-->
+<section class="page-hero">
+  <div class="container page-hero-grid">
+    <div>
+      <span class="univers-tag">Plaisanciers · Accompagnement à l'achat</span>
+      <h1>NOM DU BATEAU</h1>
+      <div class="answer"><p><strong>TYPE DE BATEAU de LONGUEUR, construit en ANNÉE</strong>, actuellement à LIEU. Un bateau que nous connaissons bien : voici notre avis, en toute franchise.</p></div>
+      <div class="btn-row"><a class="btn" href="{{root}}contact/?profil=plaisancier&amp;objet=achat">Demander une visite ou un essai</a></div>
+    </div>
+    <figure>{{img name="bateau-nom-1" alt="NOM DU BATEAU amarré à quai" w="1200" h="800" eager}}</figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split" style="align-items:start">
+    <div class="prose">
+      <h2>Caractéristiques</h2>
+      <div class="table-wrap"><table><tbody>
+        <tr><th scope="row">Type</th><td>…</td></tr>
+        <tr><th scope="row">Chantier / modèle</th><td>…</td></tr>
+        <tr><th scope="row">Année</th><td>…</td></tr>
+        <tr><th scope="row">Longueur × largeur</th><td>…</td></tr>
+        <tr><th scope="row">Tirant d'eau / tirant d'air</th><td>…</td></tr>
+        <tr><th scope="row">Motorisation</th><td>…</td></tr>
+        <tr><th scope="row">Couchages</th><td>…</td></tr>
+        <tr><th scope="row">Emplacement</th><td>…</td></tr>
+        <tr><th scope="row">Prix indicatif</th><td>Nous consulter</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="prose">
+      <h2>L'avis de RivesEnRêves</h2>
+      <h3>Points forts</h3>
+      <ul class="checklist"><li>…</li></ul>
+      <h3>Points de vigilance</h3>
+      <ul><li>…</li></ul>
+      <h3>Pour quel usage ?</h3>
+      <p>…</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <h2>En images</h2>
+    <div class="grid grid-3">
+      <figure class="figure">{{img name="bateau-nom-2" alt="…" w="800" h="600"}}</figure>
+      <figure class="figure">{{img name="bateau-nom-3" alt="…" w="800" h="600"}}</figure>
+      <figure class="figure">{{img name="bateau-nom-4" alt="…" w="800" h="600"}}</figure>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ce bateau vous intéresse ?</h2>
+      <p>Nous organisons une visite et un essai sur l'eau, et répondons à toutes vos questions techniques.</p>
+      <div class="btn-row"><a class="btn" href="{{root}}contact/?profil=plaisancier&amp;objet=achat">Demander une visite ou un essai</a><a class="btn btn-ghost-light" href="{{root}}plaisanciers/accompagnement-achat-bateau/">Tous les bateaux accompagnés</a></div>
+    </div>
+  </div>
+</section>
