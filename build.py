@@ -541,7 +541,7 @@ def jsonld(page, cfg, ariane):
     personne["subjectOf"] = [{"@type": "VideoObject", "name": "Joël Le Mercier présente RivesEnRêves",
         "description": "Joël Le Mercier, fondateur de RivesEnRêves, présente l'entreprise, son parcours et sa passion pour la voie d'eau.",
         "contentUrl": base + "assets/video/joel-le-mercier.mp4", "thumbnailUrl": base + "assets/video/joel-le-mercier.webp",
-        "uploadDate": "2026-11-17", "duration": "PT1M18S", "inLanguage": "fr-FR"}, {"@type": "NewsArticle", "url": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-marin-d-eau-douce-ne-joel-le-mercier-revele-les-secrets-des-cours-d-eau-28-09-2020-8393304.php", "datePublished": "2020-09-28",
+        "uploadDate": "2026-11-17T10:00:00+01:00", "duration": "PT1M18S", "inLanguage": "fr-FR"}, {"@type": "NewsArticle", "url": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-marin-d-eau-douce-ne-joel-le-mercier-revele-les-secrets-des-cours-d-eau-28-09-2020-8393304.php", "datePublished": "2020-09-28",
                              "headline": "Seine-et-Marne : marin d'eau douce né, Joël Le Mercier révèle les secrets des cours d'eau",
                              "publisher": {"@type": "Organization", "name": "Le Parisien"}}]
     if cfg.get("linkedin_joel"):
